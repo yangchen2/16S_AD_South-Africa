@@ -1,0 +1,14 @@
+2024-11-05 11:49:29,732 - INFO - Loading BIOM file: ../Data/Tables/209766_filtered_feature_table.biom
+2024-11-05 11:49:30,398 - INFO - BIOM table shape: (502, 2283)
+2024-11-05 11:49:30,399 - INFO - BIOM file successfully converted to DataFrame
+2024-11-05 11:49:57,459 - INFO -               GTGCCAGCAGCCGCGGTAATACGTAGGTCCCGAGCGTTGTCCGGATTTATTGGGCGTAAAGCGAGCGCAGGCGGTTAGATAAGTCTGAAGTTAAAGGCTG  ...  GTCCAGCAGCCGCGGTAATACGTAGGTCCCGAGCGTTGTCCGGATTTATTGGGCGTAAAGCGAGCGCAGGCGGTTAGATAAGTCTGAAGTTAAAGGCTGT
+15564.900344                                            6.87556                                                     ...                                          -0.017082                                                   
+15564.900459                                           4.747305                                                     ...                                          -0.031818                                                   
+15564.900221                                           3.087939                                                     ...                                          -0.047555                                                   
+15564.900570                                            5.82782                                                     ...                                          -0.138326                                                   
+15564.900092                                            8.02331                                                     ...                                          -0.018103                                                   
+
+[5 rows x 2283 columns]
+2024-11-05 11:49:57,740 - INFO - CLR transformation completed.
+2024-11-05 11:49:58,499 - INFO - DataFrame saved as BIOM table to ../Data/Tables/209766_filtered_feature_table_clr.biom
+2024-11-05 11:49:58,503 - INFO - Script completed successfully.

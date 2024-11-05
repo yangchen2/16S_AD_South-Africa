@@ -1,0 +1,14 @@
+2024-11-05 12:28:54,269 - INFO - Loading BIOM file: ../Data/Tables/209766_filtered_feature_table.biom
+2024-11-05 12:28:54,954 - INFO - BIOM table shape: (502, 2283)
+2024-11-05 12:28:55,107 - INFO -         GTGCCAGCAGCCGCGGTAATACGTAGGTCCCGAGCGTTGTCCGGATTTATTGGGCGTAAAGCGAGCGCAGGCGGTTAGATAAGTCTGAAGTTAAAGGCTG  ...  GTCCAGCAGCCGCGGTAATACGTAGGTCCCGAGCGTTGTCCGGATTTATTGGGCGTAAAGCGAGCGCAGGCGGTTAGATAAGTCTGAAGTTAAAGGCTGT
+900344                                              984.0                                                     ...                                                  0                                                   
+900459                                              118.0                                                     ...                                                  0                                                   
+900221                                               22.0                                                     ...                                                  0                                                   
+900570                                              389.0                                                     ...                                                  0                                                   
+900092                                             3106.0                                                     ...                                                  0                                                   
+
+[5 rows x 2283 columns]
+2024-11-05 12:28:55,628 - INFO - BIOM file successfully converted to DataFrame
+2024-11-05 12:28:55,645 - INFO - Metadata loaded with shape: (502, 31)
+2024-11-05 12:28:59,279 - INFO - Read counts per sample plotted by case type in descending order.
+2024-11-05 12:28:59,279 - INFO - Script completed successfully.
