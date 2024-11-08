@@ -6,7 +6,7 @@ import numpy as np
 import logging
 
 # Setup logging
-logging.basicConfig(filename='../Logs/2_clr_normalization.log', level=logging.INFO,
+logging.basicConfig(filename='../Logs/4_clr_normalization.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 def read_and_convert_biom(biom_path: str) -> pd.DataFrame:
