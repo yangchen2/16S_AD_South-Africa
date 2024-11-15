@@ -242,7 +242,7 @@ if __name__ == '__main__':
         mean_depth = plot_rarefaction_depths(df)
 
         # Perform rarefaction using mean depth
-        rarefied_df = rarefy_table(df, seed=42, depth=3000)  # based on qiime2 rarefaction curve
+        rarefied_df = rarefy_table(df, seed=42, depth=350)  # based on qiime2 rarefaction curve
         
         # Save the rarefied table as a BIOM file
         save_as_biom(rarefied_df, output_path)
