@@ -1,0 +1,14 @@
+2024-11-15 11:20:59,471 - INFO - Loading GreenGreens2 taxonomy... (this will take ~2 minutes)
+2024-11-15 11:22:33,988 - INFO - GreenGreens2 taxonomy loaded
+2024-11-15 11:22:34,018 - INFO - STEP 1: Converting BIOMs to dataframes.
+2024-11-15 11:22:34,425 - INFO - STEP 2: Attaching taxonomy info and collapsing by taxonomy level.
+2024-11-15 11:22:43,726 - WARNING - 22 features in the BIOM table do not have corresponding taxonomy information.
+2024-11-15 11:22:44,443 - INFO - Looping through each taxonomy level and performing grouping.
+2024-11-15 11:22:44,444 - WARNING - Some rows are missing taxonomy information for level Kingdom. These will be excluded.
+2024-11-15 11:22:44,493 - WARNING - Some rows are missing taxonomy information for level Phylum. These will be excluded.
+2024-11-15 11:22:44,529 - WARNING - Some rows are missing taxonomy information for level Class. These will be excluded.
+2024-11-15 11:22:44,581 - WARNING - Some rows are missing taxonomy information for level Order. These will be excluded.
+2024-11-15 11:22:44,611 - WARNING - Some rows are missing taxonomy information for level Family. These will be excluded.
+2024-11-15 11:22:44,645 - WARNING - Some rows are missing taxonomy information for level Genus. These will be excluded.
+2024-11-15 11:22:44,682 - WARNING - Some rows are missing taxonomy information for level Species. These will be excluded.
+2024-11-15 11:22:44,716 - INFO - -----> COMPLETED: Taxonomy collapsed BIOM files successfully converted to DataFrames
