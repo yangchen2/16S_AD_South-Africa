@@ -1,0 +1,148 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                                                  count    min threads    max threads
+-------------------------------------------------  -------  -------------  -------------
+xebec_all                                                1              1              1
+xebec_calculate_alpha_div_effect_sizes                   5              1              1
+xebec_calculate_alpha_div_pairwise_effect_sizes          5              1              1
+xebec_calculate_beta_div_effect_sizes                    6              1              1
+xebec_calculate_beta_div_pairwise_effect_sizes           6              1              1
+xebec_concatenate_alpha_div_effect_sizes                 1              1              1
+xebec_concatenate_alpha_div_pairwise_effect_sizes        1              1              1
+xebec_concatenate_beta_div_effect_sizes                  1              1              1
+xebec_concatenate_beta_div_pairwise_effect_sizes         1              1              1
+xebec_filter_metadata                                    1              1              1
+xebec_non_phylo_alpha_div                                4              1              1
+xebec_non_phylo_beta_div                                 2              1              1
+xebec_phylo_alpha_div                                    1              1              1
+xebec_phylo_beta_div                                     2              1              1
+xebec_phylo_rpca                                         1              1              1
+xebec_plot_effect_sizes                                  2              1              1
+xebec_plot_pairwise_effect_sizes                         2              1              1
+xebec_rarefy                                             1              1              1
+xebec_rpca                                               1              1              1
+total                                                   44              1              1
+
+Select jobs to execute...
+
+[Wed Nov 27 12:02:51 2024]
+rule xebec_rpca:
+    input: /home/yac027/16S_AD_South-Africa/Data/Tables/209723_reference-hit_nwk-matched.biom
+    output: results/beta_div/non_phylo/rpca/distance-matrix.tsv, results/beta_div/non_phylo/rpca/ordination.txt
+    log: logs/rpca.log
+    jobid: 29
+    reason: Missing output files: results/beta_div/non_phylo/rpca/distance-matrix.tsv
+    resources: tmpdir=/tmp
+
+
+[Wed Nov 27 12:02:55 2024]
+rule xebec_phylo_rpca:
+    input: /home/yac027/16S_AD_South-Africa/Data/Tables/209723_reference-hit_nwk-matched.biom, /home/yac027/16S_AD_South-Africa/Data/Trees/209723_insertion_tree.relabelled.nwk
+    output: results/beta_div/phylo/phylo_rpca/distance-matrix.tsv, results/beta_div/phylo/phylo_rpca/ordination.txt
+    log: logs/phylo_rpca.log
+    jobid: 35
+    reason: Missing output files: results/beta_div/phylo/phylo_rpca/distance-matrix.tsv
+    resources: tmpdir=/tmp
+
+
+[Wed Nov 27 12:02:55 2024]
+rule xebec_filter_metadata:
+    input: /home/yac027/16S_AD_South-Africa/Data/Metadata/updated_clean_ant_skin_metadata.tab, /home/yac027/16S_AD_South-Africa/Data/Tables/209723_reference-hit_nwk-matched.biom
+    output: results/filtered_metadata.tsv
+    log: logs/filter_metadata.log
+    jobid: 4
+    reason: Missing output files: results/filtered_metadata.tsv
+    resources: tmpdir=/tmp
+
+[Wed Nov 27 12:02:55 2024]
+rule xebec_rarefy:
+    input: /home/yac027/16S_AD_South-Africa/Data/Tables/209723_reference-hit_nwk-matched.biom
+    output: results/rarefied_table.biom
+    log: logs/rarefy.log
+    jobid: 6
+    reason: Missing output files: results/rarefied_table.biom
+    resources: tmpdir=/tmp
+
+[Wed Nov 27 12:02:58 2024]
+Finished job 4.
+1 of 44 steps (2%) done
+[Wed Nov 27 12:02:58 2024]
+Finished job 6.
+2 of 44 steps (5%) done
+Select jobs to execute...
+
+[Wed Nov 27 12:02:58 2024]
+rule xebec_non_phylo_alpha_div:
+    input: results/rarefied_table.biom
+    output: results/alpha_div/non_phylo/shannon/vector.tsv
+    log: logs/shannon.log
+    jobid: 8
+    reason: Missing output files: results/alpha_div/non_phylo/shannon/vector.tsv; Input files updated by another job: results/rarefied_table.biom
+    wildcards: alpha_div_metric=shannon
+    resources: tmpdir=/tmp
+
+[Wed Nov 27 12:02:59 2024]
+rule xebec_non_phylo_beta_div:
+    input: results/rarefied_table.biom
+    output: results/beta_div/non_phylo/braycurtis/distance-matrix.tsv
+    log: logs/braycurtis.log
+    jobid: 25
+    reason: Missing output files: results/beta_div/non_phylo/braycurtis/distance-matrix.tsv; Input files updated by another job: results/rarefied_table.biom
+    wildcards: beta_div_metric=braycurtis
+    resources: tmpdir=/tmp
+
+[Wed Nov 27 12:03:01 2024]
+Finished job 8.
+3 of 44 steps (7%) done
+Select jobs to execute...
+
+[Wed Nov 27 12:03:01 2024]
+rule xebec_phylo_beta_div:
+    input: results/rarefied_table.biom, /home/yac027/16S_AD_South-Africa/Data/Trees/209723_insertion_tree.relabelled.nwk
+    output: results/beta_div/phylo/weighted_normalized_unifrac/distance-matrix.tsv
+    log: logs/weighted_normalized_unifrac.log
+    jobid: 33
+    reason: Missing output files: results/beta_div/phylo/weighted_normalized_unifrac/distance-matrix.tsv; Input files updated by another job: results/rarefied_table.biom
+    wildcards: beta_div_metric=weighted_normalized_unifrac
+    resources: tmpdir=/tmp
+
+[Wed Nov 27 12:03:02 2024]
+Error in rule xebec_non_phylo_beta_div:
+    jobid: 25
+    input: results/rarefied_table.biom
+    output: results/beta_div/non_phylo/braycurtis/distance-matrix.tsv
+    log: logs/braycurtis.log (check log file(s) for error details)
+
+[Wed Nov 27 12:03:04 2024]
+Error in rule xebec_rpca:
+    jobid: 29
+    input: /home/yac027/16S_AD_South-Africa/Data/Tables/209723_reference-hit_nwk-matched.biom
+    output: results/beta_div/non_phylo/rpca/distance-matrix.tsv, results/beta_div/non_phylo/rpca/ordination.txt
+    log: logs/rpca.log (check log file(s) for error details)
+    shell:
+        
+        gemelli rpca             --in-biom /home/yac027/16S_AD_South-Africa/Data/Tables/209723_reference-hit_nwk-matched.biom             --output-dir results/beta_div/non_phylo/rpca             --n-components 3             --min-sample-count 0 > logs/rpca.log 2>&1
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Nov 27 12:03:04 2024]
+Finished job 33.
+4 of 44 steps (9%) done
+[Wed Nov 27 12:03:18 2024]
+Error in rule xebec_phylo_rpca:
+    jobid: 35
+    input: /home/yac027/16S_AD_South-Africa/Data/Tables/209723_reference-hit_nwk-matched.biom, /home/yac027/16S_AD_South-Africa/Data/Trees/209723_insertion_tree.relabelled.nwk
+    output: results/beta_div/phylo/phylo_rpca/distance-matrix.tsv, results/beta_div/phylo/phylo_rpca/ordination.txt
+    log: logs/phylo_rpca.log (check log file(s) for error details)
+    shell:
+        
+        gemelli phylogenetic-rpca             --in-biom /home/yac027/16S_AD_South-Africa/Data/Tables/209723_reference-hit_nwk-matched.biom             --in-phylogeny /home/yac027/16S_AD_South-Africa/Data/Trees/209723_insertion_tree.relabelled.nwk             --output-dir results/beta_div/phylo/phylo_rpca             --n-components 3             --min-sample-count 0 > logs/phylo_rpca.log 2>&1
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-11-27T120227.116548.snakemake.log

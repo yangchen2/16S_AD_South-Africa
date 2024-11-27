@@ -1,0 +1,9 @@
+effect_size	metric	column
+1.2680138491214334	cohens_d	specimen
+0.3771548398126648	cohens_d	area
+0.22306411656523076	cohens_d	hiv_exposure
+0.16621192738766824	cohens_d	sex
+0.08708756847046731	cohens_d	participant
+0.7014606221668603	cohens_f	case_type
+0.6281513531634171	cohens_f	sample_type
+0.38150962303908303	cohens_f	xebec_sampling_depth

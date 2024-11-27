@@ -1,0 +1,11 @@
+from snakemake.utils import min_version
+min_version("6.0")
+
+configfile: "config/config.yaml"
+
+module xebec_workflow:
+    snakefile:
+        "/home/yac027/mambaforge3/envs/xebec_python39/lib/python3.9/site-packages/xebec/workflow/Snakefile"
+    config: config
+
+use rule * from xebec_workflow as xebec_*

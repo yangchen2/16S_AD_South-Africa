@@ -1,0 +1,25 @@
+effect_size	metric	column	group_1	group_2
+2.0758592032797427	cohens_d	case_type	control-anterior nares	control-nonlesional skin
+1.7821868119846125	cohens_d	case_type	case-anterior nares	control-nonlesional skin
+1.728715374164917	cohens_d	case_type	case-nonlesional skin	control-anterior nares
+1.652947672644875	cohens_d	sample_type	anterior nares	lesional skin
+1.6477459593769275	cohens_d	case_type	case-lesional skin	control-anterior nares
+1.6461023222292805	cohens_d	sample_type	anterior nares	nonlesional skin
+1.4952969841802726	cohens_d	specimen	nasal	skin
+1.3593155848526224	cohens_d	case_type	case-anterior nares	case-lesional skin
+1.3363836305788126	cohens_d	case_type	case-anterior nares	case-nonlesional skin
+1.2931886709738627	cohens_d	xebec_sampling_depth	q2	q4
+1.1600336022981343	cohens_d	xebec_sampling_depth	q1	q4
+0.7610886098978078	cohens_d	xebec_sampling_depth	q3	q4
+0.5896481676273849	cohens_d	case_type	case-nonlesional skin	control-nonlesional skin
+0.4186903975457308	cohens_d	case_type	case-lesional skin	control-nonlesional skin
+0.38314117043868584	cohens_d	xebec_sampling_depth	q2	q3
+0.28491818850540157	cohens_d	area	Cape Town	Umtata
+0.260747939568313	cohens_d	case_type	case-anterior nares	control-anterior nares
+0.24587461651613207	cohens_d	xebec_sampling_depth	q1	q2
+0.16662358872176622	cohens_d	xebec_sampling_depth	q1	q3
+0.15470026655355124	cohens_d	hiv_exposure	Exposed	Unexposed
+0.1522495414567634	cohens_d	case_type	case-lesional skin	case-nonlesional skin
+0.12967608305642125	cohens_d	sample_type	lesional skin	nonlesional skin
+0.12387165317038781	cohens_d	sex	female	male
+0.003931038749527601	cohens_d	participant	case	control

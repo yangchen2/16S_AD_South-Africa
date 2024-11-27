@@ -1,0 +1,2 @@
+/home/yac027/mambaforge3/envs/xebec_python39/lib/python3.9/site-packages/gemelli/preprocessing.py:418: RuntimeWarning: divide by zero encountered in log
+  mat = np.log(matrix_closure(mat))

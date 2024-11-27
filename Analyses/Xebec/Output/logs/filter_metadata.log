@@ -1,0 +1,75 @@
+[2024-11-27 12:02:57,040 - xebec_filter_metadata] :: Original metadata shape: (502, 31)
+[2024-11-27 12:02:57,040 - xebec_filter_metadata] :: Adding sample depth column to metadata...
+[2024-11-27 12:02:57,925 - xebec_filter_metadata] :: Dropping PlateNumber because it is not of dtype 'object'.
+[2024-11-27 12:02:57,926 - xebec_filter_metadata] :: Dropping PlateLocation because it does not have a valid number of levels (87).
+[2024-11-27 12:02:57,927 - xebec_filter_metadata] :: Dropping i5 because it does not have a valid number of levels (16).
+[2024-11-27 12:02:57,927 - xebec_filter_metadata] :: Dropping i5Sequence because it does not have a valid number of levels (16).
+[2024-11-27 12:02:57,927 - xebec_filter_metadata] :: Dropping i7 because it does not have a valid number of levels (22).
+[2024-11-27 12:02:57,927 - xebec_filter_metadata] :: Dropping i7Sequence because it does not have a valid number of levels (22).
+[2024-11-27 12:02:57,928 - xebec_filter_metadata] :: Dropping identifier because it does not have a valid number of levels (259).
+[2024-11-27 12:02:57,928 - xebec_filter_metadata] :: Dropping Sequence because it does not have a valid number of levels (259).
+[2024-11-27 12:02:57,928 - xebec_filter_metadata] :: Dropping Plate ID because it is not of dtype 'object'.
+[2024-11-27 12:02:57,928 - xebec_filter_metadata] :: Dropping Well location because it does not have a valid number of levels (87).
+[2024-11-27 12:02:57,928 - xebec_filter_metadata] :: Dropping Volume (ul) because it is not of dtype 'object'.
+[2024-11-27 12:02:57,929 - xebec_filter_metadata] :: Dropping Lysozyme pretreatment because it does not have a valid number of levels (1).
+[2024-11-27 12:02:57,929 - xebec_filter_metadata] :: Dropping DNA extraction method because it does not have a valid number of levels (1).
+[2024-11-27 12:02:57,929 - xebec_filter_metadata] :: Dropping Purification method because it does not have a valid number of levels (1).
+[2024-11-27 12:02:57,929 - xebec_filter_metadata] :: Dropping Date of DNA extraction because it does not have a valid number of levels (1).
+[2024-11-27 12:02:57,930 - xebec_filter_metadata] :: Dropping pid because it does not have a valid number of levels (187).
+[2024-11-27 12:02:57,934 - xebec_filter_metadata] :: Dropping age_months because it does not have a valid number of levels (31).
+[2024-11-27 12:02:57,936 - xebec_filter_metadata] :: Dropping enrolment_date because it does not have a valid number of levels (70).
+[2024-11-27 12:02:57,936 - xebec_filter_metadata] :: Dropping enrolment_season because it does not have a valid number of levels (6).
+[2024-11-27 12:02:57,937 - xebec_filter_metadata] :: Dropping hiv_status because it does not have a valid number of levels (1).
+[2024-11-27 12:02:57,937 - xebec_filter_metadata] :: Dropping household_size because it is not of dtype 'object'.
+[2024-11-27 12:02:57,937 - xebec_filter_metadata] :: Dropping o_scorad because it does not have a valid number of levels (40).
+[2024-11-27 12:02:57,938 - xebec_filter_metadata] :: Dropping FWD_filepath because it does not have a valid number of levels (462).
+[2024-11-27 12:02:57,938 - xebec_filter_metadata] :: Dropping REV_filepath because it does not have a valid number of levels (462).
+[2024-11-27 12:02:57,940 - xebec_filter_metadata] :: Filtered metadata shape: (462, 8)
+[2024-11-27 12:02:57,968 - xebec_filter_metadata] :: 
+                           case_type  ... xebec_sampling_depth
+#sample-id                            ...                     
+900317      control-nonlesional skin  ...                   q1
+900263      control-nonlesional skin  ...                   q2
+900584            case-lesional skin  ...                   q3
+900089           case-anterior nares  ...                   q2
+900270      control-nonlesional skin  ...                   q2
+
+[5 rows x 8 columns]
+[2024-11-27 12:02:57,969 - xebec_filter_metadata] :: 
+case-nonlesional skin       102
+case-anterior nares          99
+case-lesional skin           98
+control-anterior nares       82
+control-nonlesional skin     81
+Name: case_type, dtype: int64
+[2024-11-27 12:02:57,970 - xebec_filter_metadata] :: 
+case       299
+control    163
+Name: participant, dtype: int64
+[2024-11-27 12:02:57,970 - xebec_filter_metadata] :: 
+Umtata       278
+Cape Town    184
+Name: area, dtype: int64
+[2024-11-27 12:02:57,971 - xebec_filter_metadata] :: 
+nonlesional skin    183
+anterior nares      181
+lesional skin        98
+Name: sample_type, dtype: int64
+[2024-11-27 12:02:57,971 - xebec_filter_metadata] :: 
+skin     281
+nasal    181
+Name: specimen, dtype: int64
+[2024-11-27 12:02:57,972 - xebec_filter_metadata] :: 
+male      252
+female    192
+Name: sex, dtype: int64
+[2024-11-27 12:02:57,973 - xebec_filter_metadata] :: 
+Unexposed    206
+Exposed       63
+Name: hiv_exposure, dtype: int64
+[2024-11-27 12:02:57,973 - xebec_filter_metadata] :: 
+q1    116
+q4    116
+q2    115
+q3    115
+Name: xebec_sampling_depth, dtype: int64

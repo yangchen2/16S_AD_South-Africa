@@ -1,0 +1,16 @@
+[2024-11-27 12:16:21,262 - xebec_calculate_beta_div_effect_sizes] :: Diversity Type: beta
+[2024-11-27 12:16:21,262 - xebec_calculate_beta_div_effect_sizes] :: Pairwise: False
+[2024-11-27 12:16:21,371 - xebec_calculate_beta_div_effect_sizes] :: /home/yac027/mambaforge3/envs/xebec_python39/lib/python3.9/site-packages/evident/utils.py:20: UserWarning: Data and metadata do not have the same sample IDs. Using 415 samples common to both.
+  warn(msg)
+
+[2024-11-27 12:16:21,380 - xebec_calculate_beta_div_effect_sizes] :: Diversity Metric: jaccard
+[2024-11-27 12:16:21,380 - xebec_calculate_beta_div_effect_sizes] :: Calculating effect sizes...
+[2024-11-27 12:16:21,516 - xebec_calculate_beta_div_effect_sizes] :: Finished calculating effect sizes!
+[2024-11-27 12:16:21,522 - xebec_calculate_beta_div_effect_sizes] :: 
+   effect_size    metric        column
+0     1.197479  cohens_d      specimen
+1     0.153418  cohens_d          area
+2     0.074441  cohens_d           sex
+3     0.055870  cohens_d   participant
+4     0.016717  cohens_d  hiv_exposure
+[2024-11-27 12:16:21,526 - xebec_calculate_beta_div_effect_sizes] :: Saved to results/beta_div/non_phylo/jaccard/effect_sizes.tsv!

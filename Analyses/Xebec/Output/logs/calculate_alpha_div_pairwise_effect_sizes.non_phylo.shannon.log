@@ -1,0 +1,18 @@
+[2024-11-27 12:16:27,448 - xebec_calculate_alpha_div_pairwise_effect_sizes] :: Diversity Type: alpha
+[2024-11-27 12:16:27,448 - xebec_calculate_alpha_div_pairwise_effect_sizes] :: Pairwise: True
+[2024-11-27 12:16:27,456 - xebec_calculate_alpha_div_pairwise_effect_sizes] :: /home/yac027/mambaforge3/envs/xebec_python39/lib/python3.9/site-packages/evident/utils.py:20: UserWarning: Data and metadata do not have the same sample IDs. Using 415 samples common to both.
+  warn(msg)
+
+[2024-11-27 12:16:27,464 - xebec_calculate_alpha_div_pairwise_effect_sizes] :: Diversity Metric: shannon
+[2024-11-27 12:16:27,464 - xebec_calculate_alpha_div_pairwise_effect_sizes] :: Calculating effect sizes...
+[2024-11-27 12:16:27,478 - xebec_calculate_alpha_div_pairwise_effect_sizes] :: Finished calculating effect sizes!
+[2024-11-27 12:16:27,485 - xebec_calculate_alpha_div_pairwise_effect_sizes] :: 
+   effect_size    metric  ...                 group_1                   group_2
+0     2.151624  cohens_d  ...  control-anterior nares  control-nonlesional skin
+1     1.993289  cohens_d  ...   case-nonlesional skin    control-anterior nares
+2     1.987142  cohens_d  ...                      q1                        q4
+3     1.892722  cohens_d  ...          anterior nares          nonlesional skin
+4     1.875830  cohens_d  ...     case-anterior nares  control-nonlesional skin
+
+[5 rows x 5 columns]
+[2024-11-27 12:16:27,489 - xebec_calculate_alpha_div_pairwise_effect_sizes] :: Saved to results/alpha_div/non_phylo/shannon/pairwise_effect_sizes.tsv!

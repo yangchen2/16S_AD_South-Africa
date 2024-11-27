@@ -1,0 +1,10 @@
+[2024-11-27 12:16:36,656 - xebec_concatenate_alpha_div_effect_sizes] :: Concatenating...
+[2024-11-27 12:16:36,679 - xebec_concatenate_alpha_div_effect_sizes] :: Finished concatenating!
+[2024-11-27 12:16:36,687 - xebec_concatenate_alpha_div_effect_sizes] :: 
+  phylogenetic diversity_metric  effect_size    metric        column
+0    non_phylo    observed_otus     1.495297  cohens_d      specimen
+1    non_phylo    observed_otus     0.284918  cohens_d          area
+2    non_phylo    observed_otus     0.154700  cohens_d  hiv_exposure
+3    non_phylo    observed_otus     0.123872  cohens_d           sex
+4    non_phylo    observed_otus     0.003931  cohens_d   participant
+[2024-11-27 12:16:36,691 - xebec_concatenate_alpha_div_effect_sizes] :: Saved to results/alpha_div/all_metrics_effect_sizes.tsv!

@@ -1,0 +1,5 @@
+[2024-11-27 12:16:12,080 - xebec_phylo_alpha_div] :: Diversity Metric: faith_pd
+[2024-11-27 12:16:12,080 - xebec_phylo_alpha_div] :: Phylogenetic: True
+[2024-11-27 12:16:18,434 - xebec_phylo_alpha_div] :: Calculating alpha diversity...
+[2024-11-27 12:16:25,630 - xebec_phylo_alpha_div] :: Finished calculating alpha diversity!
+[2024-11-27 12:16:25,637 - xebec_phylo_alpha_div] :: Saved to results/alpha_div/phylo/faith_pd/vector.tsv
