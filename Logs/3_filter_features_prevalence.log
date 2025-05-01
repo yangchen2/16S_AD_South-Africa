@@ -1,0 +1,45 @@
+2025-04-25 12:44:21,262 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_feature_table.biom
+2025-04-25 12:44:21,272 - INFO - BIOM loaded with shape: (502, 2283)
+2025-04-25 12:44:21,273 - INFO - Calculated prevalence for 2283 features.
+2025-04-25 12:44:21,476 - INFO - Prevalence plot saved to: ../Plots/Dataset_stats/feature_prevalence_distribution.png
+2025-04-25 12:44:21,477 - INFO - Features before filtering: 2283
+2025-04-25 12:44:21,477 - INFO - Features after filtering at 10%: 122
+2025-04-25 12:44:21,477 - INFO - Saving filtered table to: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct.biom
+2025-04-25 12:44:21,484 - INFO - Filtered BIOM saved successfully.
+2025-04-25 12:44:21,485 - INFO - Completed filtering at 10% threshold.
+2025-04-25 12:44:21,485 - INFO - Features before filtering: 2283
+2025-04-25 12:44:21,485 - INFO - Features after filtering at 5%: 259
+2025-04-25 12:44:21,485 - INFO - Saving filtered table to: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct.biom
+2025-04-25 12:44:21,493 - INFO - Filtered BIOM saved successfully.
+2025-04-25 12:44:21,493 - INFO - Completed filtering at 5% threshold.
+2025-04-25 12:44:21,493 - INFO - Features before filtering: 2283
+2025-04-25 12:44:21,493 - INFO - Features after filtering at 1%: 801
+2025-04-25 12:44:21,493 - INFO - Saving filtered table to: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct.biom
+2025-04-25 12:44:21,505 - INFO - Filtered BIOM saved successfully.
+2025-04-25 12:44:21,505 - INFO - Completed filtering at 1% threshold.
+2025-04-25 12:44:21,505 - INFO - Filtering and plotting completed successfully for all thresholds.
+2025-04-25 17:46:57,584 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_feature_table.biom
+2025-04-25 17:46:57,593 - INFO - BIOM loaded with shape: (502, 2283)
+2025-04-25 17:46:57,594 - INFO - Calculated prevalence for 2283 features.
+2025-04-25 17:46:57,790 - INFO - Prevalence plot saved to: ../Plots/Dataset_stats/feature_prevalence_distribution.png
+2025-04-25 17:46:57,791 - INFO - Features before filtering: 2283
+2025-04-25 17:46:57,791 - INFO - Features after filtering at 10%: 122
+2025-04-25 17:46:57,791 - INFO - Saving filtered table to: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct.biom
+2025-04-25 17:46:57,799 - INFO - Filtered BIOM saved successfully.
+2025-04-25 17:46:57,799 - INFO - Completed filtering at 10% threshold.
+2025-04-25 17:46:57,799 - INFO - Features before filtering: 2283
+2025-04-25 17:46:57,799 - INFO - Features after filtering at 5%: 259
+2025-04-25 17:46:57,799 - INFO - Saving filtered table to: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct.biom
+2025-04-25 17:46:57,808 - INFO - Filtered BIOM saved successfully.
+2025-04-25 17:46:57,808 - INFO - Completed filtering at 5% threshold.
+2025-04-25 17:46:57,809 - INFO - Features before filtering: 2283
+2025-04-25 17:46:57,809 - INFO - Features after filtering at 1%: 801
+2025-04-25 17:46:57,809 - INFO - Saving filtered table to: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct.biom
+2025-04-25 17:46:57,821 - INFO - Filtered BIOM saved successfully.
+2025-04-25 17:46:57,821 - INFO - Completed filtering at 1% threshold.
+2025-04-25 17:46:57,822 - INFO - Features before filtering: 2283
+2025-04-25 17:46:57,822 - INFO - Features after filtering at 0%: 2283
+2025-04-25 17:46:57,822 - INFO - Saving filtered table to: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_0pct.biom
+2025-04-25 17:46:57,841 - INFO - Filtered BIOM saved successfully.
+2025-04-25 17:46:57,841 - INFO - Completed filtering at 0% threshold.
+2025-04-25 17:46:57,841 - INFO - Filtering and plotting completed successfully for all thresholds.

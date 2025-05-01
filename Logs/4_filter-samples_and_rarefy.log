@@ -1,0 +1,50 @@
+2025-04-25 12:46:19,309 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct.biom
+2025-04-25 12:46:19,324 - INFO - BIOM table shape: (502, 259)
+2025-04-25 12:46:19,328 - INFO - Metadata loaded with shape: (502, 31)
+2025-04-25 12:46:19,784 - INFO - Read counts plot saved for 5pct.
+2025-04-25 12:46:20,184 - INFO - Rarefaction depth plot saved for 5pct. Mean depth: 4678
+2025-04-25 12:46:20,184 - INFO - Using rarefaction depth: 350
+2025-04-25 12:46:20,201 - INFO - Rarefaction completed.
+2025-04-25 12:46:20,208 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct_rare.biom
+2025-04-25 12:46:20,208 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct.biom
+2025-04-25 12:46:20,238 - INFO - BIOM table shape: (502, 801)
+2025-04-25 12:46:20,241 - INFO - Metadata loaded with shape: (502, 31)
+2025-04-25 12:46:20,728 - INFO - Read counts plot saved for 1pct.
+2025-04-25 12:46:21,129 - INFO - Rarefaction depth plot saved for 1pct. Mean depth: 5005
+2025-04-25 12:46:21,129 - INFO - Using rarefaction depth: 350
+2025-04-25 12:46:21,156 - INFO - Rarefaction completed.
+2025-04-25 12:46:21,166 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct_rare.biom
+2025-04-25 12:46:21,166 - INFO - Rarefaction pipeline completed for all prevalence thresholds.
+2025-04-25 17:47:58,260 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct.biom
+2025-04-25 17:47:58,274 - INFO - BIOM table shape: (502, 122)
+2025-04-25 17:47:58,281 - INFO - Metadata loaded with shape: (502, 31)
+2025-04-25 17:47:58,793 - INFO - Read counts plot saved for 10pct.
+2025-04-25 17:47:59,175 - INFO - Rarefaction depth plot saved for 10pct. Mean depth: 4323
+2025-04-25 17:47:59,175 - INFO - Using rarefaction depth: 350
+2025-04-25 17:47:59,188 - INFO - Rarefaction completed.
+2025-04-25 17:47:59,195 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct_rare.biom
+2025-04-25 17:47:59,195 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct.biom
+2025-04-25 17:47:59,211 - INFO - BIOM table shape: (502, 259)
+2025-04-25 17:47:59,214 - INFO - Metadata loaded with shape: (502, 31)
+2025-04-25 17:47:59,677 - INFO - Read counts plot saved for 5pct.
+2025-04-25 17:48:00,068 - INFO - Rarefaction depth plot saved for 5pct. Mean depth: 4678
+2025-04-25 17:48:00,068 - INFO - Using rarefaction depth: 350
+2025-04-25 17:48:00,085 - INFO - Rarefaction completed.
+2025-04-25 17:48:00,092 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct_rare.biom
+2025-04-25 17:48:00,092 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct.biom
+2025-04-25 17:48:00,123 - INFO - BIOM table shape: (502, 801)
+2025-04-25 17:48:00,126 - INFO - Metadata loaded with shape: (502, 31)
+2025-04-25 17:48:00,599 - INFO - Read counts plot saved for 1pct.
+2025-04-25 17:48:00,998 - INFO - Rarefaction depth plot saved for 1pct. Mean depth: 5005
+2025-04-25 17:48:00,998 - INFO - Using rarefaction depth: 350
+2025-04-25 17:48:01,025 - INFO - Rarefaction completed.
+2025-04-25 17:48:01,038 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct_rare.biom
+2025-04-25 17:48:01,038 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_0pct.biom
+2025-04-25 17:48:01,102 - INFO - BIOM table shape: (502, 2283)
+2025-04-25 17:48:01,106 - INFO - Metadata loaded with shape: (502, 31)
+2025-04-25 17:48:01,628 - INFO - Read counts plot saved for 0pct.
+2025-04-25 17:48:02,082 - INFO - Rarefaction depth plot saved for 0pct. Mean depth: 5072
+2025-04-25 17:48:02,082 - INFO - Using rarefaction depth: 350
+2025-04-25 17:48:02,140 - INFO - Rarefaction completed.
+2025-04-25 17:48:02,165 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_0pct_rare.biom
+2025-04-25 17:48:02,165 - INFO - Rarefaction pipeline completed for all prevalence thresholds.
