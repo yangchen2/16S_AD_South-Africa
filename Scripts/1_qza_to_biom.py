@@ -4,6 +4,10 @@ from biom import load_table
 from biom.util import biom_open
 import qiime2 as q2
 import logging
+import os
+
+# Make sure Logs directory exists
+os.makedirs('../Logs', exist_ok=True)
 
 # Set up logging
 logging.basicConfig(filename='../Logs/1_qza_to_biom.log', level=logging.INFO,
@@ -44,7 +48,7 @@ def qza_to_biom(qza_path: str):
 if __name__ == '__main__':
     try:
         # Path for rs210 per-genome table
-        qza_path = '../Data/Tables/209766_filtered_feature_table.qza'
+        qza_path = '../Data/Tables/Absolute_Abundance_Tables/209766_filtered_feature_table.qza'
 
         # Convert
         qza_to_biom(qza_path)

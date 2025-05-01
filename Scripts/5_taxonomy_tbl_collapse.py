@@ -71,33 +71,40 @@ def group_by_all_taxonomy_levels(tbl_path: str):
         logging.info("Looping through each taxonomy level and performing grouping.")
         for level in taxonomy_levels:
             try:
-                # Split Taxon column based on `;`
-                if 'Taxon' not in df.columns or df['Taxon'].isnull().any():
+                # Copy the original df to avoid modifying it permanently
+                df_level = df.copy()
+
+                # Split Taxon column
+                if 'Taxon' not in df_level.columns or df_level['Taxon'].isnull().any():
                     logging.warning(f"Some rows are missing taxonomy information for level {level}. These will be excluded.")
-                df[['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']] = df['Taxon'].str.split(';', expand=True)
+                
+                df_level[['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']] = df_level['Taxon'].str.split(';', expand=True)
 
                 # Drop unnecessary taxonomy levels
                 levels_to_remove = taxonomy_levels.copy()
                 levels_to_remove.remove(level)
-                df_reduced = df.drop(columns=levels_to_remove)
+                df_reduced = df_level.drop(columns=levels_to_remove)
 
                 # Group by (collapse) features to the current taxonomy level
                 df_grouped = df_reduced.groupby(level).sum(numeric_only=True)
-                #grouped_dfs[df_name][level] = df_grouped
-                # Sort the grouped DataFrame by row sums in descending order
+
+                # Sort by row sums
                 df_grouped = df_grouped.loc[df_grouped.sum(axis=1).sort_values(ascending=False).index]
 
-
-                # Save BIOM file
+                # Save BIOM
                 obs_ids = df_grouped.index
                 samp_ids = df_grouped.columns
                 biom_table = biom.table.Table(df_grouped.values, observation_ids=obs_ids, sample_ids=samp_ids)
-                biom_output_file = f"../Data/Tables/{df_name}_filtered_feature_table_rare_{level}_absolute.biom"
-                os.makedirs("../Data/Tables", exist_ok=True)
+                biom_output_file = f"../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_0pct_rare_{level}.biom"
+                os.makedirs("../Data/Tables/Absolute_Abundance_Tables", exist_ok=True)
                 with biom_open(biom_output_file, 'w') as f:
                     biom_table.to_hdf5(f, generated_by="Collapsed by taxonomy level")
+
+                logging.info(f"Saved collapsed BIOM at {level} level: {biom_output_file}")
+
             except Exception as e:
                 logging.error(f"Error processing taxonomy level {level}: {e}")
+
 
     logging.info("-----> COMPLETED: Taxonomy collapsed BIOM files successfully converted to DataFrames")
     return grouped_dfs
@@ -106,7 +113,7 @@ def group_by_all_taxonomy_levels(tbl_path: str):
 if __name__ == '__main__':
     try:
         # File paths for the BIOM files
-        biom_16S_path = "../Data/Tables/209766_filtered_feature_table_rare.biom"
+        biom_16S_path = "../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_0pct_rare.biom"
 
         # Create collapsed taxa BIOMs
         grouped_dfs = group_by_all_taxonomy_levels(biom_16S_path)

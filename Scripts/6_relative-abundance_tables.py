@@ -79,13 +79,13 @@ def save_dataframe_as_biom(df, output_path):
 if __name__ == "__main__":
     # List of 7 BIOM table paths
     biom_table_paths = [
-        "../Data/Tables/df_16S_filtered_feature_table_rare_Kingdom_absolute.biom",
-        "../Data/Tables/df_16S_filtered_feature_table_rare_Phylum_absolute.biom",
-        "../Data/Tables/df_16S_filtered_feature_table_rare_Class_absolute.biom",
-        "../Data/Tables/df_16S_filtered_feature_table_rare_Order_absolute.biom",
-        "../Data/Tables/df_16S_filtered_feature_table_rare_Family_absolute.biom",
-        "../Data/Tables/df_16S_filtered_feature_table_rare_Genus_absolute.biom",
-        "../Data/Tables/df_16S_filtered_feature_table_rare_Species_absolute.biom",
+        "../Data/Tables/Absolute_Abundance_Tables/df_16S_filtered_feature_table_rare_Kingdom_absolute.biom",
+        "../Data/Tables/Absolute_Abundance_Tables/df_16S_filtered_feature_table_rare_Phylum_absolute.biom",
+        "../Data/Tables/Absolute_Abundance_Tables/df_16S_filtered_feature_table_rare_Class_absolute.biom",
+        "../Data/Tables/Absolute_Abundance_Tables/df_16S_filtered_feature_table_rare_Order_absolute.biom",
+        "../Data/Tables/Absolute_Abundance_Tables/df_16S_filtered_feature_table_rare_Family_absolute.biom",
+        "../Data/Tables/Absolute_Abundance_Tables/df_16S_filtered_feature_table_rare_Genus_absolute.biom",
+        "../Data/Tables/Absolute_Abundance_Tables/df_16S_filtered_feature_table_rare_Species_absolute.biom",
     ]
 
     output_dir = "../Data/Tables/Relative_Abundance_Tables"
