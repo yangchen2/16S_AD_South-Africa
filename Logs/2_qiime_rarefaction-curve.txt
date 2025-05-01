@@ -1,4 +1,0 @@
-Starting rarefaction analysis at Fri Nov  8 11:25:24 PST 2024
-Running qiime diversity alpha-rarefaction at Fri Nov  8 11:25:24 PST 2024
-Saved Visualization to: ../Data/Qiime2_files/rarefaction_curves.qzv
-Rarefaction analysis completed successfully at Fri Nov  8 11:27:34 PST 2024
