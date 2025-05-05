@@ -95,7 +95,8 @@ def group_by_all_taxonomy_levels(tbl_path: str):
                 obs_ids = df_grouped.index
                 samp_ids = df_grouped.columns
                 biom_table = biom.table.Table(df_grouped.values, observation_ids=obs_ids, sample_ids=samp_ids)
-                biom_output_file = f"../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_0pct_rare_{level}.biom"
+                print('Table shape: ' + str(biom_table.shape))
+                biom_output_file = f"../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct_rare_{level}.biom"
                 os.makedirs("../Data/Tables/Absolute_Abundance_Tables", exist_ok=True)
                 with biom_open(biom_output_file, 'w') as f:
                     biom_table.to_hdf5(f, generated_by="Collapsed by taxonomy level")
@@ -113,7 +114,7 @@ def group_by_all_taxonomy_levels(tbl_path: str):
 if __name__ == '__main__':
     try:
         # File paths for the BIOM files
-        biom_16S_path = "../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_0pct_rare.biom"
+        biom_16S_path = "../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct_rare.biom"
 
         # Create collapsed taxa BIOMs
         grouped_dfs = group_by_all_taxonomy_levels(biom_16S_path)

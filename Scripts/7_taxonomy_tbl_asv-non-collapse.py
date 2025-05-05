@@ -83,7 +83,7 @@ def add_unique_tax_labels(tbl_path: str, level: str, prevalence: str):
 if __name__ == '__main__':
     try:
         prevalence_thresholds = ['10pct', '5pct', '1pct']
-        taxonomy_level = "Genus"
+        taxonomy_level = "Phylum"
 
         for prevalence in prevalence_thresholds:
             biom_path = f"../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_{prevalence}_rare.biom"
@@ -96,7 +96,7 @@ if __name__ == '__main__':
             add_unique_tax_labels(biom_path, level=taxonomy_level, prevalence=prevalence)
 
         logging.info("All taxonomy mappings completed for all prevalence thresholds.")
-        print("Done. Log written to: ../logs/6_taxonomy_tbl_map_ASV-non-collapse.log")
+        print("Done. Log written to: ../logs/7_taxonomy_tbl_map_ASV-non-collapse.log")
 
     except Exception as e:
         logging.error(f"Error in main execution: {e}")

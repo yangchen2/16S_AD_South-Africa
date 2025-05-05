@@ -1,34 +1,11 @@
-2025-04-25 12:47:40,031 - INFO - Loading GreenGreens2 taxonomy...
-2025-04-25 12:48:19,947 - INFO - Taxonomy loaded
-2025-04-25 12:48:21,074 - INFO - Saved mapped BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct_rare_Genus-ASV-non-collapse.biom
-2025-04-25 12:50:34,190 - INFO - Loading GreenGreens2 taxonomy...
-2025-04-25 12:51:14,947 - INFO - Taxonomy loaded
-2025-04-25 12:51:14,947 - INFO - Processing 10pct threshold at Genus level
-2025-04-25 12:51:16,092 - INFO - Saved mapped BIOM file for Genus at 10pct: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct_rare_Genus-ASV-non-collapse.biom
-2025-04-25 12:51:16,094 - INFO - Processing 5pct threshold at Genus level
-2025-04-25 12:51:16,138 - WARNING - Some ASVs are missing taxonomy assignments at Genus level for 5pct.
-2025-04-25 12:51:17,542 - INFO - Saved mapped BIOM file for Genus at 5pct: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct_rare_Genus-ASV-non-collapse.biom
-2025-04-25 12:51:17,544 - INFO - Processing 1pct threshold at Genus level
-2025-04-25 12:51:17,618 - WARNING - Some ASVs are missing taxonomy assignments at Genus level for 1pct.
-2025-04-25 12:51:20,849 - INFO - Saved mapped BIOM file for Genus at 1pct: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct_rare_Genus-ASV-non-collapse.biom
-2025-04-25 12:51:20,854 - INFO - All taxonomy mappings completed for all prevalence thresholds.
-2025-04-25 15:40:39,806 - INFO - Loading GreenGreens2 taxonomy...
-2025-04-25 15:41:21,766 - INFO - Taxonomy loaded
-2025-04-25 15:41:21,767 - INFO - All taxonomy mappings completed for all prevalence thresholds.
-2025-04-25 15:44:32,337 - INFO - Loading GreenGreens2 taxonomy...
-2025-04-25 15:45:12,858 - INFO - Taxonomy loaded
-2025-04-25 15:45:12,860 - INFO - All taxonomy mappings completed for all prevalence thresholds.
-2025-04-25 15:48:02,926 - INFO - Loading GreenGreens2 taxonomy...
-2025-04-25 15:48:47,621 - INFO - Taxonomy loaded
-2025-04-25 15:48:47,622 - INFO - All taxonomy mappings completed for all prevalence thresholds.
-2025-04-25 17:14:51,064 - INFO - Loading GreenGreens2 taxonomy...
-2025-04-25 17:15:36,001 - INFO - Taxonomy loaded
-2025-04-25 17:15:36,002 - INFO - Processing 10pct threshold at Genus level
-2025-04-25 17:15:37,228 - INFO - Saved mapped BIOM file for Genus at 10pct: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct_rare_Genus-ASV-non-collapse.biom
-2025-04-25 17:15:37,230 - INFO - Processing 5pct threshold at Genus level
-2025-04-25 17:15:37,275 - WARNING - Some ASVs are missing taxonomy assignments at Genus level for 5pct.
-2025-04-25 17:15:38,708 - INFO - Saved mapped BIOM file for Genus at 5pct: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct_rare_Genus-ASV-non-collapse.biom
-2025-04-25 17:15:38,710 - INFO - Processing 1pct threshold at Genus level
-2025-04-25 17:15:38,776 - WARNING - Some ASVs are missing taxonomy assignments at Genus level for 1pct.
-2025-04-25 17:15:41,966 - INFO - Saved mapped BIOM file for Genus at 1pct: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct_rare_Genus-ASV-non-collapse.biom
-2025-04-25 17:15:41,969 - INFO - All taxonomy mappings completed for all prevalence thresholds.
+2025-05-03 20:50:09,565 - INFO - Loading GreenGreens2 taxonomy...
+2025-05-03 20:50:56,202 - INFO - Taxonomy loaded
+2025-05-03 20:50:56,203 - INFO - Processing 10pct threshold at Phylum level
+2025-05-03 20:50:57,492 - INFO - Saved mapped BIOM file for Phylum at 10pct: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct_rare_Phylum-ASV-non-collapse.biom
+2025-05-03 20:50:57,493 - INFO - Processing 5pct threshold at Phylum level
+2025-05-03 20:50:57,549 - WARNING - Some ASVs are missing taxonomy assignments at Phylum level for 5pct.
+2025-05-03 20:50:58,024 - INFO - Saved mapped BIOM file for Phylum at 5pct: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct_rare_Phylum-ASV-non-collapse.biom
+2025-05-03 20:50:58,026 - INFO - Processing 1pct threshold at Phylum level
+2025-05-03 20:50:58,106 - WARNING - Some ASVs are missing taxonomy assignments at Phylum level for 1pct.
+2025-05-03 20:50:58,808 - INFO - Saved mapped BIOM file for Phylum at 1pct: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct_rare_Phylum-ASV-non-collapse.biom
+2025-05-03 20:50:58,810 - INFO - All taxonomy mappings completed for all prevalence thresholds.

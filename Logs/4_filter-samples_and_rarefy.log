@@ -48,3 +48,61 @@
 2025-04-25 17:48:02,140 - INFO - Rarefaction completed.
 2025-04-25 17:48:02,165 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_0pct_rare.biom
 2025-04-25 17:48:02,165 - INFO - Rarefaction pipeline completed for all prevalence thresholds.
+2025-05-02 13:51:39,514 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct.biom
+2025-05-02 13:51:39,529 - INFO - BIOM table shape: (502, 122)
+2025-05-02 13:51:39,535 - INFO - Metadata loaded with shape: (502, 31)
+2025-05-02 13:51:40,033 - INFO - Read counts plot saved for 10pct.
+2025-05-02 13:51:40,417 - INFO - Rarefaction depth plot saved for 10pct. Mean depth: 4323
+2025-05-02 13:51:40,417 - INFO - Using rarefaction depth: 350
+2025-05-02 13:51:40,432 - INFO - Rarefaction completed.
+2025-05-02 13:51:40,437 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct_rare.biom
+2025-05-02 13:51:40,437 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct.biom
+2025-05-02 13:51:40,452 - INFO - BIOM table shape: (502, 259)
+2025-05-02 13:51:40,455 - INFO - Metadata loaded with shape: (502, 31)
+2025-05-02 13:51:40,915 - INFO - Read counts plot saved for 5pct.
+2025-05-02 13:51:41,331 - INFO - Rarefaction depth plot saved for 5pct. Mean depth: 4678
+2025-05-02 13:51:41,331 - INFO - Using rarefaction depth: 350
+2025-05-02 13:51:41,348 - INFO - Rarefaction completed.
+2025-05-02 13:51:41,355 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct_rare.biom
+2025-05-02 13:51:41,355 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct.biom
+2025-05-02 13:51:41,384 - INFO - BIOM table shape: (502, 801)
+2025-05-02 13:51:41,387 - INFO - Metadata loaded with shape: (502, 31)
+2025-05-02 13:51:41,867 - INFO - Read counts plot saved for 1pct.
+2025-05-02 13:51:42,271 - INFO - Rarefaction depth plot saved for 1pct. Mean depth: 5005
+2025-05-02 13:51:42,271 - INFO - Using rarefaction depth: 350
+2025-05-02 13:51:42,299 - INFO - Rarefaction completed.
+2025-05-02 13:51:42,310 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct_rare.biom
+2025-05-02 13:51:42,310 - INFO - Rarefaction pipeline completed for all prevalence thresholds.
+2025-05-02 15:24:13,399 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct.biom
+2025-05-02 15:24:13,415 - INFO - BIOM table shape: (502, 122)
+2025-05-02 15:24:13,421 - INFO - Metadata loaded with shape: (502, 31)
+2025-05-02 15:24:13,959 - INFO - Read counts plot saved for 10pct.
+2025-05-02 15:24:14,361 - INFO - Rarefaction depth plot saved for 10pct. Mean depth: 4323
+2025-05-02 15:24:14,361 - INFO - Using rarefaction depth: 350
+2025-05-02 15:24:14,376 - INFO - Rarefaction completed.
+2025-05-02 15:24:14,383 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct_rare.biom
+2025-05-02 15:24:14,383 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct.biom
+2025-05-02 15:24:14,399 - INFO - BIOM table shape: (502, 259)
+2025-05-02 15:24:14,403 - INFO - Metadata loaded with shape: (502, 31)
+2025-05-02 15:24:14,890 - INFO - Read counts plot saved for 5pct.
+2025-05-02 15:24:15,320 - INFO - Rarefaction depth plot saved for 5pct. Mean depth: 4678
+2025-05-02 15:24:15,320 - INFO - Using rarefaction depth: 350
+2025-05-02 15:24:15,338 - INFO - Rarefaction completed.
+2025-05-02 15:24:15,346 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_5pct_rare.biom
+2025-05-02 15:24:15,346 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct.biom
+2025-05-02 15:24:15,378 - INFO - BIOM table shape: (502, 801)
+2025-05-02 15:24:15,381 - INFO - Metadata loaded with shape: (502, 31)
+2025-05-02 15:24:15,889 - INFO - Read counts plot saved for 1pct.
+2025-05-02 15:24:16,316 - INFO - Rarefaction depth plot saved for 1pct. Mean depth: 5005
+2025-05-02 15:24:16,316 - INFO - Using rarefaction depth: 350
+2025-05-02 15:24:16,347 - INFO - Rarefaction completed.
+2025-05-02 15:24:16,357 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_1pct_rare.biom
+2025-05-02 15:24:16,357 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_0pct.biom
+2025-05-02 15:24:16,426 - INFO - BIOM table shape: (502, 2283)
+2025-05-02 15:24:16,430 - INFO - Metadata loaded with shape: (502, 31)
+2025-05-02 15:24:16,987 - INFO - Read counts plot saved for 0pct.
+2025-05-02 15:24:17,486 - INFO - Rarefaction depth plot saved for 0pct. Mean depth: 5072
+2025-05-02 15:24:17,486 - INFO - Using rarefaction depth: 350
+2025-05-02 15:24:17,548 - INFO - Rarefaction completed.
+2025-05-02 15:24:17,563 - INFO - Saved rarefied BIOM table to ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_0pct_rare.biom
+2025-05-02 15:24:17,563 - INFO - Rarefaction pipeline completed for all prevalence thresholds.
