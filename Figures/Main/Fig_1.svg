@@ -5,7 +5,7 @@
    id="svg5"
    sodipodi:docname="Fig_1.svg"
    inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   inkscape:export-filename="graphical-abstract.svg"
+   inkscape:export-filename="graphical-abstract.png"
    inkscape:export-xdpi="600"
    inkscape:export-ydpi="600"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -29,9 +29,9 @@
      inkscape:window-x="136"
      inkscape:window-y="38"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g1"
+     inkscape:current-layer="svg5"
      showguides="true"
-     inkscape:export-bgcolor="#ffffff00">
+     inkscape:export-bgcolor="#ffffffff">
     <sodipodi:guide
        position="4193.3334,-270.61337"
        orientation="0,-1"
@@ -86,7 +86,7 @@
        id="tspan8-9-7-0"
        x="2086.5203"
        y="852.60248"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60.0199px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:0.997658;stroke-width:0.649045">n=111</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60.0199px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:0.997658;stroke-width:0.649045">n=110</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:121.423px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.649045"
