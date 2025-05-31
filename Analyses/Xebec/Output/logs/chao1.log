@@ -1,5 +1,0 @@
-[2024-11-27 12:16:13,659 - xebec_non_phylo_alpha_div] :: Diversity Metric: chao1
-[2024-11-27 12:16:13,659 - xebec_non_phylo_alpha_div] :: Phylogenetic: False
-[2024-11-27 12:16:13,744 - xebec_non_phylo_alpha_div] :: Calculating alpha diversity...
-[2024-11-27 12:16:13,928 - xebec_non_phylo_alpha_div] :: Finished calculating alpha diversity!
-[2024-11-27 12:16:13,944 - xebec_non_phylo_alpha_div] :: Saved to results/alpha_div/non_phylo/chao1/vector.tsv

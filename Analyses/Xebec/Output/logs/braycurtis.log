@@ -1,5 +1,0 @@
-[2024-11-27 12:08:23,243 - xebec_non_phylo_beta_div] :: Diversity Metric: braycurtis
-[2024-11-27 12:08:23,243 - xebec_non_phylo_beta_div] :: Phylogenetic: False
-[2024-11-27 12:08:23,339 - xebec_non_phylo_beta_div] :: Calculating beta diversity...
-[2024-11-27 12:08:25,133 - xebec_non_phylo_beta_div] :: Finished calculating beta diversity!
-[2024-11-27 12:08:25,425 - xebec_non_phylo_beta_div] :: Saved to results/beta_div/non_phylo/braycurtis/distance-matrix.tsv

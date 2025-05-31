@@ -1,8 +1,0 @@
-[2024-11-27 12:08:25,967 - xebec_non_phylo_beta_div] :: Diversity Metric: jaccard
-[2024-11-27 12:08:25,967 - xebec_non_phylo_beta_div] :: Phylogenetic: False
-[2024-11-27 12:08:26,034 - xebec_non_phylo_beta_div] :: Calculating beta diversity...
-[2024-11-27 12:08:26,276 - xebec_non_phylo_beta_div] :: /home/yac027/mambaforge3/envs/xebec_python39/lib/python3.9/site-packages/sklearn/metrics/pairwise.py:2361: DataConversionWarning: Data was converted to boolean for metric jaccard
-  warnings.warn(msg, DataConversionWarning)
-
-[2024-11-27 12:08:27,104 - xebec_non_phylo_beta_div] :: Finished calculating beta diversity!
-[2024-11-27 12:08:27,357 - xebec_non_phylo_beta_div] :: Saved to results/beta_div/non_phylo/jaccard/distance-matrix.tsv

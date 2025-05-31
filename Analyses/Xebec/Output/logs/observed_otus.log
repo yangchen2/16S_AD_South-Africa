@@ -1,5 +1,0 @@
-[2024-11-27 12:08:30,235 - xebec_non_phylo_alpha_div] :: Diversity Metric: observed_otus
-[2024-11-27 12:08:30,235 - xebec_non_phylo_alpha_div] :: Phylogenetic: False
-[2024-11-27 12:08:30,324 - xebec_non_phylo_alpha_div] :: Calculating alpha diversity...
-[2024-11-27 12:08:30,469 - xebec_non_phylo_alpha_div] :: Finished calculating alpha diversity!
-[2024-11-27 12:08:30,475 - xebec_non_phylo_alpha_div] :: Saved to results/alpha_div/non_phylo/observed_otus/vector.tsv
