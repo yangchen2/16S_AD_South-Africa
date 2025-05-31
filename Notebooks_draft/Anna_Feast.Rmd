@@ -1,0 +1,33 @@
+# This script runs FEAST: https://github.com/cozygene/FEAST
+
+setwd('/Users/yangchen/PhD/Gallo_lab/16S_AD_South-Africa/Analyses')
+
+library(FEAST)
+
+# Load inputs
+metadata <- Load_metadata(metadata_path = "FEAST/FEAST_metadata_nasal_source.tsv")
+
+example_otus <- Load_CountMatrix(CountMatrix_path = "staph_strep_table_parent-source.tsv")
+
+otus <- Load_CountMatrix(CountMatrix_path = "FEAST/source_contributions_matrix_ALL_rare_Genus_absolute.tsv")
+
+#metadata_copy <- metadata
+#metadata_copy$MergedColumn <- paste(rownames(metadata_copy), metadata_copy$Env, sep = "_")
+#class(otus)
+
+# Filter row names where a certain column (e.g., "TargetColumn") has a specific value
+#SinkNames <- rownames(metadata_copy)[metadata_copy$SourceSink == "Sink"]
+#SourceNames <- colnames(metadata_copy)[metadata_copy$SourceSink == "Source"]
+#dim(otus)
+
+
+# Run FEAST
+FEAST_output <- FEAST(C = otus, metadata = metadata,
+                      different_sources_flag = 0,
+                      dir_path = "FEAST",
+                      outfile="genera_nasal_source.tsv")
+                      
+                      
+PlotSourceContribution(SinkNames = SinkNames,
+                       SourceNames = SourceNames, dir_path = "/Users/annanguyen/16S_AD_South-Africa/Test",
+                       mixing_proportions = FEAST_output, Plot_title = "Test_",Same_sources_flag = 1, N = 163)
