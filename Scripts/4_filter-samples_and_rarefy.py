@@ -37,40 +37,25 @@ def load_metadata(metadata_path: str) -> pd.DataFrame:
         logging.error(f"Error in loading metadata: {e}")
         raise
 
-def plot_sorted_read_counts(biom_df: pd.DataFrame, metadata: pd.DataFrame, prevalence: str):
-    sample_read_counts = biom_df.sum(axis=1).sort_values(ascending=False)
-    sample_read_counts_df = sample_read_counts.to_frame(name='read_count').merge(
-        metadata[['case_type']], left_index=True, right_index=True, how='left'
-    ).dropna(subset=['case_type']).reset_index(drop=True)
+# def plot_rarefaction_depths(biom_df: pd.DataFrame, prevalence: str) -> int:
+#     sample_depths = biom_df.sum(axis=1)
+#     mean_depth = int(sample_depths.mean())
 
-    color_map = {
-        'control-nonlesional skin': 'blue',
-        'case-nonlesional skin': 'orange',
-        'case-lesional skin': 'red',
-        'control-anterior nares': 'green',
-        'case-anterior nares': 'pink'
-    }
-    sample_read_counts_df['color'] = sample_read_counts_df['case_type'].map(color_map)
+#     plt.figure(figsize=(10, 6))
+#     plt.hist(sample_depths, bins=30, edgecolor='black', alpha=0.7)
+#     plt.axvline(sample_depths.min(), color='red', linestyle='--', label=f'Min Depth: {sample_depths.min()}')
+#     plt.axvline(mean_depth, color='blue', linestyle='--', label=f'Mean Depth: {mean_depth}')
+#     plt.title(f'Distribution of Sample Read Depths - {prevalence}')
+#     plt.xlabel('Read Depth')
+#     plt.ylabel('Frequency')
+#     plt.legend()
+#     os.makedirs('../Plots/Dataset_stats/', exist_ok=True)
+#     plt.savefig(f'../Plots/Dataset_stats/read_counts_by_sample_{prevalence}.png', dpi=600)
+#     logging.info(f"Rarefaction depth plot saved for {prevalence}. Mean depth: {mean_depth}")
+#     return mean_depth
 
-    plt.figure(figsize=(10, 6))
-    plt.scatter(x=sample_read_counts_df.index, y=sample_read_counts_df['read_count'],
-                c=sample_read_counts_df['color'], s=20)
 
-    legend_order = list(color_map.keys())
-    for case_type in legend_order:
-        plt.scatter([], [], color=color_map[case_type], label=case_type)
-
-    plt.title(f'Read Counts per Sample (Sorted High to Low) - {prevalence}')
-    plt.xlabel('Sample (sorted by read count)')
-    plt.ylabel('Read Count')
-    plt.xticks([])
-    plt.legend(title="Case Type")
-    plt.grid(True)
-    os.makedirs('../Plots/Dataset_stats/', exist_ok=True)
-    plt.savefig(f'../Plots/Dataset_stats/read_counts_by_case_type_{prevalence}.png', dpi=600)
-    logging.info(f"Read counts plot saved for {prevalence}.")
-
-def plot_rarefaction_depths(biom_df: pd.DataFrame, prevalence: str) -> int:
+def plot_rarefaction_depths(biom_df: pd.DataFrame, prevalence: str, rarefaction_depth: int = None) -> int:
     sample_depths = biom_df.sum(axis=1)
     mean_depth = int(sample_depths.mean())
 
@@ -78,14 +63,20 @@ def plot_rarefaction_depths(biom_df: pd.DataFrame, prevalence: str) -> int:
     plt.hist(sample_depths, bins=30, edgecolor='black', alpha=0.7)
     plt.axvline(sample_depths.min(), color='red', linestyle='--', label=f'Min Depth: {sample_depths.min()}')
     plt.axvline(mean_depth, color='blue', linestyle='--', label=f'Mean Depth: {mean_depth}')
+    
+    if rarefaction_depth is not None:
+        plt.axvline(rarefaction_depth, color='green', linestyle='--', label=f'Chosen Rarefaction Depth: {rarefaction_depth}')
+    
     plt.title(f'Distribution of Sample Read Depths - {prevalence}')
     plt.xlabel('Read Depth')
     plt.ylabel('Frequency')
     plt.legend()
-    os.makedirs('../Plots/Dataset_stats/', exist_ok=True)
+    os.makedirs('../Plots_draft/Dataset_stats/', exist_ok=True)
     plt.savefig(f'../Plots/Dataset_stats/read_counts_by_sample_{prevalence}.png', dpi=600)
     logging.info(f"Rarefaction depth plot saved for {prevalence}. Mean depth: {mean_depth}")
-    return mean_depth
+    
+    return mean_depth  # optionally return this, or just return chosen depth instead
+
 
 def rarefy_table(biom_df: pd.DataFrame, seed: int = 42, depth: int = None) -> pd.DataFrame:
     if depth is None:
@@ -117,7 +108,9 @@ def save_as_biom(df: pd.DataFrame, output_path: str):
 
 if __name__ == '__main__':
     try:
-        prevalence_thresholds = ['10pct', '5pct', '1pct', '0pct']
+        # prevalence_thresholds = ['10pct', '5pct', '1pct', '0pct']
+        prevalence_thresholds = ['1pct']
+
         metadata_path = '../Data/Metadata/updated_clean_ant_skin_metadata.tab'
 
         for prevalence in prevalence_thresholds:
@@ -129,15 +122,35 @@ if __name__ == '__main__':
                 continue
 
             df = read_and_convert_biom(biom_path)
+            num_features_after = df.shape[1]
+            logging.info(f"{num_features_after} features retained after applying the {prevalence} prevalence filter.")
+
             metadata = load_metadata(metadata_path)
 
-            plot_sorted_read_counts(df, metadata, prevalence)
-            mean_depth = plot_rarefaction_depths(df, prevalence)
+            # Compute sample depths and choose the rarefaction depth
+            sample_depths = df.sum(axis=1)
+            chosen_depth = int(sample_depths.quantile(0.05))
+            logging.info(f"Chosen rarefaction depth for {prevalence}: {chosen_depth}")
 
-            # You can adjust the rarefaction depth if you want based on your project:
-            rarefied_df = rarefy_table(df, seed=42, depth=350)
+            # Plot with chosen depth highlighted
+            plot_rarefaction_depths(df, prevalence, rarefaction_depth=chosen_depth)
 
-            save_as_biom(rarefied_df, output_path)
+            # --- VERSION 1: Remove low-depth samples (for alpha diversity) ---
+            df_filtered = df[df.sum(axis=1) >= chosen_depth]
+            rarefied_filtered_df = rarefy_table(df_filtered, seed=42, depth=chosen_depth)
+            filtered_output_path = f'../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_{prevalence}_rare_filtered.biom'
+            save_as_biom(rarefied_filtered_df, filtered_output_path)
+            logging.info(f"Saved rarefied BIOM table with filtered samples to {filtered_output_path}")
+
+            # --- VERSION 2: Keep all samples (for general reference or descriptive stats) ---
+            rarefied_all_df = rarefy_table(df, seed=42, depth=chosen_depth)
+            all_output_path = f'../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_{prevalence}_rare_all.biom'
+            save_as_biom(rarefied_all_df, all_output_path)
+            logging.info(f"Saved rarefied BIOM table with all samples to {all_output_path}")
+
+            # Save both tables
+            save_as_biom(rarefied_filtered_df, filtered_output_path)
+            save_as_biom(rarefied_all_df, all_output_path)
 
         logging.info("Rarefaction pipeline completed for all prevalence thresholds.")
         print("Done. Log written to: ../Logs/4_filter-samples_and_rarefy.log")

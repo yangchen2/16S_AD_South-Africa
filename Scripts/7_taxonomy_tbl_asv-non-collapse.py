@@ -74,7 +74,9 @@ def add_unique_tax_labels(tbl_path: str, level: str, prevalence: str):
     samp_ids = df_out.columns
     biom_out = biom.table.Table(df_out.values, observation_ids=obs_ids, sample_ids=samp_ids)
 
-    out_file = f"../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_{prevalence}_rare_{level}-ASV-non-collapse.biom"
+    # out_file = f"../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_{prevalence}_rare_{level}-ASV-non-collapse.biom"
+    out_file = f"../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_{prevalence}_rare_filtered_{level}-ASV-non-collapse.biom" # for alpha diversity
+
     with biom_open(out_file, 'w') as f:
         biom_out.to_hdf5(f, generated_by=f"Taxonomy mapping at {level} level, {prevalence}")
 
@@ -82,11 +84,12 @@ def add_unique_tax_labels(tbl_path: str, level: str, prevalence: str):
 
 if __name__ == '__main__':
     try:
-        prevalence_thresholds = ['10pct', '5pct', '1pct']
-        taxonomy_level = "Phylum"
+        prevalence_thresholds = ['1pct']
+        taxonomy_level = "Genus"
 
         for prevalence in prevalence_thresholds:
-            biom_path = f"../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_{prevalence}_rare.biom"
+            # biom_path = f"../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_{prevalence}_rare.biom"
+            biom_path = f"../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_{prevalence}_rare_filtered.biom" # for alpha diversity
             
             if not os.path.exists(biom_path):
                 logging.warning(f"BIOM file not found for {prevalence} threshold: {biom_path}")
