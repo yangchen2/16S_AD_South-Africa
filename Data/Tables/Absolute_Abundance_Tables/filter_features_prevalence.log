@@ -1,8 +1,0 @@
-2025-04-25 11:28:53,289 - INFO - Logging is set up.
-2025-04-25 11:28:53,290 - INFO - Loading BIOM file: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_feature_table.biom
-2025-04-25 11:28:53,301 - INFO - BIOM loaded with shape: (502, 2283)
-2025-04-25 11:28:53,303 - INFO - Features before filtering: 2283
-2025-04-25 11:28:53,303 - INFO - Features after filtering: 122
-2025-04-25 11:28:53,303 - INFO - Saving filtered table to: ../Data/Tables/Absolute_Abundance_Tables/209766_filtered_by_prevalence_10pct.biom
-2025-04-25 11:28:53,311 - INFO - Filtered BIOM saved successfully.
-2025-04-25 11:28:53,311 - INFO - Filtering completed successfully.
