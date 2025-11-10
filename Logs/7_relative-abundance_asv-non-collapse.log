@@ -1,0 +1,194 @@
+2025-11-08 12:51:47,213 - INFO - Starting relative abundance generation for Genus-ASV tables (ALL, SKIN, NASAL).
+2025-11-08 12:51:47,213 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_all.biom
+2025-11-08 12:51:47,219 - INFO - Loaded BIOM with shape (120, 421)
+2025-11-08 12:51:47,275 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,285 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_all_rel.biom
+2025-11-08 12:51:47,286 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_skin.biom
+2025-11-08 12:51:47,290 - INFO - Loaded BIOM with shape (120, 243)
+2025-11-08 12:51:47,315 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,322 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:47,322 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_nasal.biom
+2025-11-08 12:51:47,325 - INFO - Loaded BIOM with shape (120, 157)
+2025-11-08 12:51:47,342 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,346 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:47,346 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_all.biom
+2025-11-08 12:51:47,350 - INFO - Loaded BIOM with shape (120, 334)
+2025-11-08 12:51:47,386 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,394 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_all_rel.biom
+2025-11-08 12:51:47,394 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_skin.biom
+2025-11-08 12:51:47,397 - INFO - Loaded BIOM with shape (120, 185)
+2025-11-08 12:51:47,416 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,422 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:47,422 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_nasal.biom
+2025-11-08 12:51:47,425 - INFO - Loaded BIOM with shape (120, 135)
+2025-11-08 12:51:47,439 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,444 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:47,444 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_all.biom
+2025-11-08 12:51:47,448 - INFO - Loaded BIOM with shape (120, 283)
+2025-11-08 12:51:47,477 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,484 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_all_rel.biom
+2025-11-08 12:51:47,484 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_skin.biom
+2025-11-08 12:51:47,488 - INFO - Loaded BIOM with shape (120, 153)
+2025-11-08 12:51:47,505 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,510 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:47,510 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_nasal.biom
+2025-11-08 12:51:47,513 - INFO - Loaded BIOM with shape (120, 118)
+2025-11-08 12:51:47,534 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,539 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:47,539 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_all.biom
+2025-11-08 12:51:47,543 - INFO - Loaded BIOM with shape (120, 252)
+2025-11-08 12:51:47,570 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,577 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_all_rel.biom
+2025-11-08 12:51:47,577 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_skin.biom
+2025-11-08 12:51:47,580 - INFO - Loaded BIOM with shape (120, 134)
+2025-11-08 12:51:47,595 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,600 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:47,600 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_nasal.biom
+2025-11-08 12:51:47,603 - INFO - Loaded BIOM with shape (120, 107)
+2025-11-08 12:51:47,614 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,618 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:47,618 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_all.biom
+2025-11-08 12:51:47,623 - INFO - Loaded BIOM with shape (261, 427)
+2025-11-08 12:51:47,668 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,677 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_all_rel.biom
+2025-11-08 12:51:47,677 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_skin.biom
+2025-11-08 12:51:47,682 - INFO - Loaded BIOM with shape (261, 248)
+2025-11-08 12:51:47,708 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,716 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:47,716 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_nasal.biom
+2025-11-08 12:51:47,719 - INFO - Loaded BIOM with shape (247, 158)
+2025-11-08 12:51:47,736 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,741 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:47,741 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_all.biom
+2025-11-08 12:51:47,745 - INFO - Loaded BIOM with shape (261, 344)
+2025-11-08 12:51:47,790 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,800 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_all_rel.biom
+2025-11-08 12:51:47,800 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_skin.biom
+2025-11-08 12:51:47,804 - INFO - Loaded BIOM with shape (261, 192)
+2025-11-08 12:51:47,824 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,831 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:47,831 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_nasal.biom
+2025-11-08 12:51:47,835 - INFO - Loaded BIOM with shape (255, 138)
+2025-11-08 12:51:47,849 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,854 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:47,854 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_all.biom
+2025-11-08 12:51:47,858 - INFO - Loaded BIOM with shape (261, 298)
+2025-11-08 12:51:47,889 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,898 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_all_rel.biom
+2025-11-08 12:51:47,898 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_skin.biom
+2025-11-08 12:51:47,901 - INFO - Loaded BIOM with shape (261, 165)
+2025-11-08 12:51:47,919 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,926 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:47,926 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_nasal.biom
+2025-11-08 12:51:47,928 - INFO - Loaded BIOM with shape (252, 120)
+2025-11-08 12:51:47,941 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,946 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:47,946 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_all.biom
+2025-11-08 12:51:47,950 - INFO - Loaded BIOM with shape (261, 260)
+2025-11-08 12:51:47,978 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:47,986 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_all_rel.biom
+2025-11-08 12:51:47,986 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_skin.biom
+2025-11-08 12:51:47,989 - INFO - Loaded BIOM with shape (261, 142)
+2025-11-08 12:51:48,004 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,010 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:48,010 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_nasal.biom
+2025-11-08 12:51:48,013 - INFO - Loaded BIOM with shape (252, 107)
+2025-11-08 12:51:48,025 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,029 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:48,029 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_all.biom
+2025-11-08 12:51:48,034 - INFO - Loaded BIOM with shape (837, 431)
+2025-11-08 12:51:48,089 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,103 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_all_rel.biom
+2025-11-08 12:51:48,103 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_skin.biom
+2025-11-08 12:51:48,107 - INFO - Loaded BIOM with shape (809, 252)
+2025-11-08 12:51:48,134 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,143 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:48,144 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_nasal.biom
+2025-11-08 12:51:48,147 - INFO - Loaded BIOM with shape (534, 158)
+2025-11-08 12:51:48,164 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,170 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:48,170 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_all.biom
+2025-11-08 12:51:48,175 - INFO - Loaded BIOM with shape (859, 355)
+2025-11-08 12:51:48,213 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,226 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_all_rel.biom
+2025-11-08 12:51:48,226 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_skin.biom
+2025-11-08 12:51:48,230 - INFO - Loaded BIOM with shape (849, 200)
+2025-11-08 12:51:48,252 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,261 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:48,261 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_nasal.biom
+2025-11-08 12:51:48,264 - INFO - Loaded BIOM with shape (619, 140)
+2025-11-08 12:51:48,279 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,285 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:48,285 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_all.biom
+2025-11-08 12:51:48,290 - INFO - Loaded BIOM with shape (859, 309)
+2025-11-08 12:51:48,330 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,342 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_all_rel.biom
+2025-11-08 12:51:48,342 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_skin.biom
+2025-11-08 12:51:48,347 - INFO - Loaded BIOM with shape (852, 176)
+2025-11-08 12:51:48,366 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,374 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:48,374 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_nasal.biom
+2025-11-08 12:51:48,378 - INFO - Loaded BIOM with shape (611, 120)
+2025-11-08 12:51:48,391 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,396 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:48,397 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_all.biom
+2025-11-08 12:51:48,401 - INFO - Loaded BIOM with shape (857, 271)
+2025-11-08 12:51:48,429 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,441 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_all_rel.biom
+2025-11-08 12:51:48,441 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_skin.biom
+2025-11-08 12:51:48,445 - INFO - Loaded BIOM with shape (847, 151)
+2025-11-08 12:51:48,461 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,469 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:48,469 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_nasal.biom
+2025-11-08 12:51:48,472 - INFO - Loaded BIOM with shape (616, 108)
+2025-11-08 12:51:48,484 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,489 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:48,489 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_all.biom
+2025-11-08 12:51:48,495 - INFO - Loaded BIOM with shape (1420, 432)
+2025-11-08 12:51:48,540 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,557 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_all_rel.biom
+2025-11-08 12:51:48,557 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_skin.biom
+2025-11-08 12:51:48,562 - INFO - Loaded BIOM with shape (1322, 253)
+2025-11-08 12:51:48,597 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,609 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:48,609 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_nasal.biom
+2025-11-08 12:51:48,614 - INFO - Loaded BIOM with shape (636, 158)
+2025-11-08 12:51:48,631 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,637 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:48,637 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_all.biom
+2025-11-08 12:51:48,642 - INFO - Loaded BIOM with shape (1683, 359)
+2025-11-08 12:51:48,680 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,698 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_all_rel.biom
+2025-11-08 12:51:48,699 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_skin.biom
+2025-11-08 12:51:48,703 - INFO - Loaded BIOM with shape (1576, 203)
+2025-11-08 12:51:48,725 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,735 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:48,736 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_nasal.biom
+2025-11-08 12:51:48,739 - INFO - Loaded BIOM with shape (773, 141)
+2025-11-08 12:51:48,755 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,760 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:48,760 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_all.biom
+2025-11-08 12:51:48,765 - INFO - Loaded BIOM with shape (1737, 309)
+2025-11-08 12:51:48,798 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,813 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_all_rel.biom
+2025-11-08 12:51:48,813 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_skin.biom
+2025-11-08 12:51:48,817 - INFO - Loaded BIOM with shape (1645, 176)
+2025-11-08 12:51:48,836 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,847 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:48,847 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_nasal.biom
+2025-11-08 12:51:48,858 - INFO - Loaded BIOM with shape (781, 120)
+2025-11-08 12:51:48,871 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,877 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:48,877 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_all.biom
+2025-11-08 12:51:48,882 - INFO - Loaded BIOM with shape (1733, 274)
+2025-11-08 12:51:48,911 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,925 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_all_rel.biom
+2025-11-08 12:51:48,925 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_skin.biom
+2025-11-08 12:51:48,929 - INFO - Loaded BIOM with shape (1637, 153)
+2025-11-08 12:51:48,945 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,955 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_skin_rel.biom
+2025-11-08 12:51:48,955 - INFO - Reading BIOM table: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_nasal.biom
+2025-11-08 12:51:48,958 - INFO - Loaded BIOM with shape (760, 109)
+2025-11-08 12:51:48,970 - INFO - Converted to relative abundance successfully.
+2025-11-08 12:51:48,976 - INFO - Saved BIOM: ../Data/Tables/Relative_Abundance_Tables/7_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_nasal_rel.biom
+2025-11-08 12:51:48,976 - INFO - Completed relative abundance table creation for all specimen subsets.

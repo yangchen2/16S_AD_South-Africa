@@ -6,6 +6,10 @@ import qiime2 as q2
 import logging
 import os
 
+##########################################################################################
+# SCRIPT 1: CONVERTS RAW QZA ARTIFACT FROM QIITA INTO BIOM TABLE
+##########################################################################################
+
 # Make sure Logs directory exists
 os.makedirs('../Logs', exist_ok=True)
 
@@ -29,7 +33,6 @@ def qza_to_biom(qza_path: str):
 
         biom_table = biom.table.Table(biom_df.values, observation_ids=obs_ids, sample_ids=samp_ids)
         
-        # Remove the .qza extension and append .biom
         biom_output_file = qza_path.rsplit('.qza', 1)[0] + '.biom'
 
         with biom_open(biom_output_file, 'w') as f:
@@ -48,7 +51,7 @@ def qza_to_biom(qza_path: str):
 if __name__ == '__main__':
     try:
         # Path for rs210 per-genome table
-        qza_path = '../Data/Tables/Absolute_Abundance_Tables/209766_filtered_feature_table.qza'
+        qza_path = '../Data/Tables/Count_Tables/1_209766_feature_table.qza'
 
         # Convert
         qza_to_biom(qza_path)

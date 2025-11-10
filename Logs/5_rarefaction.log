@@ -1,0 +1,137 @@
+2025-11-08 12:49:47,486 - INFO - Chosen rarefaction depth: 350
+2025-11-08 12:49:47,486 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-10pct.biom
+2025-11-08 12:49:47,499 - INFO - BIOM table shape: (462, 120)
+2025-11-08 12:49:47,507 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:47,535 - INFO - Samples retained after filtering: 421
+2025-11-08 12:49:47,535 - INFO - Using rarefaction depth: 350
+2025-11-08 12:49:47,547 - INFO - Rarefaction completed.
+2025-11-08 12:49:47,553 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-350.biom
+2025-11-08 12:49:47,553 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-350.biom
+2025-11-08 12:49:47,553 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-5pct.biom
+2025-11-08 12:49:47,568 - INFO - BIOM table shape: (462, 262)
+2025-11-08 12:49:47,571 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:47,612 - INFO - Samples retained after filtering: 427
+2025-11-08 12:49:47,612 - INFO - Using rarefaction depth: 350
+2025-11-08 12:49:47,627 - INFO - Rarefaction completed.
+2025-11-08 12:49:47,634 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-350.biom
+2025-11-08 12:49:47,634 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-350.biom
+2025-11-08 12:49:47,634 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-1pct.biom
+2025-11-08 12:49:47,664 - INFO - BIOM table shape: (462, 868)
+2025-11-08 12:49:47,667 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:47,774 - INFO - Samples retained after filtering: 431
+2025-11-08 12:49:47,774 - INFO - Using rarefaction depth: 350
+2025-11-08 12:49:47,801 - INFO - Rarefaction completed.
+2025-11-08 12:49:47,811 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-350.biom
+2025-11-08 12:49:47,811 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-350.biom
+2025-11-08 12:49:47,811 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-0pct.biom
+2025-11-08 12:49:47,874 - INFO - BIOM table shape: (462, 2283)
+2025-11-08 12:49:47,877 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:48,097 - INFO - Samples retained after filtering: 432
+2025-11-08 12:49:48,097 - INFO - Using rarefaction depth: 350
+2025-11-08 12:49:48,156 - INFO - Rarefaction completed.
+2025-11-08 12:49:48,170 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-350.biom
+2025-11-08 12:49:48,170 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-350.biom
+2025-11-08 12:49:48,170 - INFO - Rarefaction completed for depth 350
+2025-11-08 12:49:48,170 - INFO - Chosen rarefaction depth: 1000
+2025-11-08 12:49:48,170 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-10pct.biom
+2025-11-08 12:49:48,180 - INFO - BIOM table shape: (462, 120)
+2025-11-08 12:49:48,183 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:48,210 - INFO - Samples retained after filtering: 334
+2025-11-08 12:49:48,210 - INFO - Using rarefaction depth: 1000
+2025-11-08 12:49:48,225 - INFO - Rarefaction completed.
+2025-11-08 12:49:48,230 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-1000.biom
+2025-11-08 12:49:48,230 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-1000.biom
+2025-11-08 12:49:48,230 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-5pct.biom
+2025-11-08 12:49:48,256 - INFO - BIOM table shape: (462, 262)
+2025-11-08 12:49:48,259 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:48,299 - INFO - Samples retained after filtering: 344
+2025-11-08 12:49:48,299 - INFO - Using rarefaction depth: 1000
+2025-11-08 12:49:48,317 - INFO - Rarefaction completed.
+2025-11-08 12:49:48,323 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-1000.biom
+2025-11-08 12:49:48,323 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-1000.biom
+2025-11-08 12:49:48,323 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-1pct.biom
+2025-11-08 12:49:48,351 - INFO - BIOM table shape: (462, 868)
+2025-11-08 12:49:48,353 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:48,444 - INFO - Samples retained after filtering: 355
+2025-11-08 12:49:48,444 - INFO - Using rarefaction depth: 1000
+2025-11-08 12:49:48,475 - INFO - Rarefaction completed.
+2025-11-08 12:49:48,483 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-1000.biom
+2025-11-08 12:49:48,484 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-1000.biom
+2025-11-08 12:49:48,484 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-0pct.biom
+2025-11-08 12:49:48,545 - INFO - BIOM table shape: (462, 2283)
+2025-11-08 12:49:48,548 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:48,757 - INFO - Samples retained after filtering: 359
+2025-11-08 12:49:48,757 - INFO - Using rarefaction depth: 1000
+2025-11-08 12:49:48,814 - INFO - Rarefaction completed.
+2025-11-08 12:49:48,827 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-1000.biom
+2025-11-08 12:49:48,827 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-1000.biom
+2025-11-08 12:49:48,827 - INFO - Rarefaction completed for depth 1000
+2025-11-08 12:49:48,827 - INFO - Chosen rarefaction depth: 1500
+2025-11-08 12:49:48,827 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-10pct.biom
+2025-11-08 12:49:48,837 - INFO - BIOM table shape: (462, 120)
+2025-11-08 12:49:48,840 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:48,868 - INFO - Samples retained after filtering: 283
+2025-11-08 12:49:48,868 - INFO - Using rarefaction depth: 1500
+2025-11-08 12:49:48,884 - INFO - Rarefaction completed.
+2025-11-08 12:49:48,889 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-1500.biom
+2025-11-08 12:49:48,889 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-1500.biom
+2025-11-08 12:49:48,889 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-5pct.biom
+2025-11-08 12:49:48,902 - INFO - BIOM table shape: (462, 262)
+2025-11-08 12:49:48,904 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:48,944 - INFO - Samples retained after filtering: 298
+2025-11-08 12:49:48,944 - INFO - Using rarefaction depth: 1500
+2025-11-08 12:49:48,964 - INFO - Rarefaction completed.
+2025-11-08 12:49:48,970 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-1500.biom
+2025-11-08 12:49:48,970 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-1500.biom
+2025-11-08 12:49:48,970 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-1pct.biom
+2025-11-08 12:49:48,997 - INFO - BIOM table shape: (462, 868)
+2025-11-08 12:49:48,999 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:49,092 - INFO - Samples retained after filtering: 309
+2025-11-08 12:49:49,092 - INFO - Using rarefaction depth: 1500
+2025-11-08 12:49:49,124 - INFO - Rarefaction completed.
+2025-11-08 12:49:49,132 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-1500.biom
+2025-11-08 12:49:49,133 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-1500.biom
+2025-11-08 12:49:49,133 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-0pct.biom
+2025-11-08 12:49:49,204 - INFO - BIOM table shape: (462, 2283)
+2025-11-08 12:49:49,207 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:49,401 - INFO - Samples retained after filtering: 309
+2025-11-08 12:49:49,401 - INFO - Using rarefaction depth: 1500
+2025-11-08 12:49:49,460 - INFO - Rarefaction completed.
+2025-11-08 12:49:49,472 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-1500.biom
+2025-11-08 12:49:49,472 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-1500.biom
+2025-11-08 12:49:49,472 - INFO - Rarefaction completed for depth 1500
+2025-11-08 12:49:49,472 - INFO - Chosen rarefaction depth: 2000
+2025-11-08 12:49:49,473 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-10pct.biom
+2025-11-08 12:49:49,483 - INFO - BIOM table shape: (462, 120)
+2025-11-08 12:49:49,486 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:49,513 - INFO - Samples retained after filtering: 252
+2025-11-08 12:49:49,513 - INFO - Using rarefaction depth: 2000
+2025-11-08 12:49:49,532 - INFO - Rarefaction completed.
+2025-11-08 12:49:49,537 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-2000.biom
+2025-11-08 12:49:49,537 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-2000.biom
+2025-11-08 12:49:49,537 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-5pct.biom
+2025-11-08 12:49:49,551 - INFO - BIOM table shape: (462, 262)
+2025-11-08 12:49:49,553 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:49,591 - INFO - Samples retained after filtering: 260
+2025-11-08 12:49:49,591 - INFO - Using rarefaction depth: 2000
+2025-11-08 12:49:49,613 - INFO - Rarefaction completed.
+2025-11-08 12:49:49,620 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-2000.biom
+2025-11-08 12:49:49,620 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-2000.biom
+2025-11-08 12:49:49,620 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-1pct.biom
+2025-11-08 12:49:49,649 - INFO - BIOM table shape: (462, 868)
+2025-11-08 12:49:49,651 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:49,754 - INFO - Samples retained after filtering: 271
+2025-11-08 12:49:49,754 - INFO - Using rarefaction depth: 2000
+2025-11-08 12:49:49,788 - INFO - Rarefaction completed.
+2025-11-08 12:49:49,798 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-2000.biom
+2025-11-08 12:49:49,798 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-2000.biom
+2025-11-08 12:49:49,798 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/3_209766_feature_table_dedup_prev-filt-0pct.biom
+2025-11-08 12:49:49,857 - INFO - BIOM table shape: (462, 2283)
+2025-11-08 12:49:49,860 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-08 12:49:50,061 - INFO - Samples retained after filtering: 274
+2025-11-08 12:49:50,061 - INFO - Using rarefaction depth: 2000
+2025-11-08 12:49:50,121 - INFO - Rarefaction completed.
+2025-11-08 12:49:50,132 - INFO - Saved rarefied BIOM table to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-2000.biom
+2025-11-08 12:49:50,132 - INFO - Saved rarefied BIOM table with filtered samples to ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-2000.biom
+2025-11-08 12:49:50,132 - INFO - Rarefaction completed for depth 2000
+2025-11-08 12:49:50,132 - INFO - Rarefaction pipeline completed for all prevalence thresholds and depths.

@@ -1,0 +1,10 @@
+2025-11-09 14:24:38,776 - INFO - Starting sample filtering script
+2025-11-09 14:24:38,776 - INFO - Loading BIOM file: ../Data/Tables/Count_Tables/1_209766_feature_table.biom
+2025-11-09 14:24:38,856 - INFO - BIOM table shape: (502, 2283)
+2025-11-09 14:24:38,864 - INFO - Metadata loaded with shape: (462, 29)
+2025-11-09 14:24:38,864 - INFO - Original BIOM table samples: 502
+2025-11-09 14:24:38,864 - INFO - Metadata samples: 462
+2025-11-09 14:24:38,982 - INFO - Shape after metadata subset: (462, 2283)
+2025-11-09 14:24:38,982 - INFO - Samples removed: 40
+2025-11-09 14:24:39,048 - INFO - Saved filtered BIOM table to ../Data/Tables/Count_Tables/2_209766_feature_table_dedup.biom
+2025-11-09 14:24:39,048 - INFO - Sample filtering completed successfully

@@ -1,0 +1,8 @@
+Starting rarefaction analysis at Sat Nov  8 11:30:25 PST 2025
+Running qiime feature-table summarize at Sat Nov  8 11:30:25 PST 2025
+Saved Visualization to: ../Data/QC/feature_table_summary.qzv
+Feature table summary created: ../Data/QC/feature_table_summary.qzv
+Use https://view.qiime2.org/ to view per-sample sequencing depths before choosing rarefaction cutoff.
+Running qiime diversity alpha-rarefaction at Sat Nov  8 11:30:33 PST 2025
+Saved Visualization to: ../Data/QC/rarefaction_curves.qzv
+Rarefaction analysis completed successfully at Sat Nov  8 11:33:29 PST 2025

@@ -1,0 +1,101 @@
+2025-11-08 11:48:35,036 - INFO - LOADING TAXONOMY DATA
+2025-11-08 11:49:17,557 - INFO - Loaded taxonomy for 21074441 ASVs
+2025-11-08 11:49:17,558 - INFO - Taxonomy columns: ['Taxon', 'Confidence']
+
+2025-11-08 11:49:17,558 - INFO - CREATING ASV MAPPING FROM BIOM TABLE
+2025-11-08 11:49:17,559 - INFO - Loading BIOM table from: ../Data/Tables/Count_Tables/2_209766_feature_table_dedup.biom
+2025-11-08 11:49:17,774 - INFO - Table shape: (462, 2283)
+2025-11-08 11:49:18,087 - WARNING - Some ASVs are missing taxonomy assignments at Genus level.
+2025-11-08 11:49:18,124 - INFO - ASVs with Genus level taxonomy: 2261
+2025-11-08 11:49:24,515 - INFO - Created mapping for 2261 ASVs
+2025-11-08 11:49:24,515 - INFO - Number of unique Genus: 475
+2025-11-08 11:49:24,521 - INFO - 
+Total ASVs mapped: 2261
+2025-11-08 11:49:24,521 - INFO - Total unique genera: 475
+2025-11-08 11:49:24,525 - INFO -                         ASV_Name                       Genus  TotalReadCount
+          g__Streptococcus_ASV-1            g__Streptococcus        390466.0
+         g__Staphylococcus_ASV-1           g__Staphylococcus        338405.0
+          g__Streptococcus_ASV-2            g__Streptococcus        149035.0
+         g__Staphylococcus_ASV-2           g__Staphylococcus        148310.0
+   g__Haemophilus_D_734546_ASV-1     g__Haemophilus_D_734546        146910.0
+   g__Haemophilus_D_734546_ASV-2     g__Haemophilus_D_734546         51999.0
+        g__Corynebacterium_ASV-1          g__Corynebacterium         39656.0
+            g__Micrococcus_ASV-1              g__Micrococcus         35548.0
+          g__Psychrobacter_ASV-1            g__Psychrobacter         33757.0
+        g__Corynebacterium_ASV-2          g__Corynebacterium         31198.0
+             g__Prevotella_ASV-1               g__Prevotella         28212.0
+          g__Streptococcus_ASV-3            g__Streptococcus         28183.0
+   g__Pseudomonas_E_647464_ASV-1     g__Pseudomonas_E_647464         28061.0
+             g__Prevotella_ASV-2               g__Prevotella         24390.0
+         g__Dolosigranulum_ASV-1           g__Dolosigranulum         23399.0
+                       g___ASV-1                         g__         22059.0
+          g__Acinetobacter_ASV-1            g__Acinetobacter         19250.0
+                       g___ASV-2                         g__         17682.0
+                 g__SIO2C1_ASV-1                   g__SIO2C1         17545.0
+          g__Veillonella_A_ASV-1            g__Veillonella_A         15862.0
+g__Chryseobacterium_796614_ASV-1  g__Chryseobacterium_796614         15487.0
+          g__Cutibacterium_ASV-1            g__Cutibacterium         14345.0
+        g__Corynebacterium_ASV-3          g__Corynebacterium         14223.0
+                       g___ASV-3                         g__         14170.0
+         g__Staphylococcus_ASV-3           g__Staphylococcus         13757.0
+2025-11-08 11:49:24,525 - INFO - PROCESSING FEATURE IMPORTANCE CSV FILES
+2025-11-08 11:49:24,525 - INFO - 
+Found 5 CSV files to process:
+2025-11-08 11:49:24,525 - INFO -   - feature_importance_nares_AD_vs_H.csv
+2025-11-08 11:49:24,525 - INFO -   - feature_importance_skin-ADNL_vs_skin-ADL.csv
+2025-11-08 11:49:24,525 - INFO -   - feature_importance_skin-ADL_vs_skin-H.csv
+2025-11-08 11:49:24,525 - INFO -   - feature_importance_skin-ADNL_vs_skin-H.csv
+2025-11-08 11:49:24,525 - INFO -   - feature_importance_skin_vs_nares.csv
+2025-11-08 11:49:24,525 - INFO - PROCESSING FILES
+2025-11-08 11:49:24,525 - INFO - 
+feature_importance_nares_AD_vs_H.csv
+2025-11-08 11:49:24,537 - INFO -   Mapped 1686/1686 ASVs (excluding g__ASV entries)
+2025-11-08 11:49:24,537 - INFO -   Saved to: feature_importance_nares_AD_vs_H_ASV-name.csv
+2025-11-08 11:49:24,537 - INFO -   Top 5 most important ASVs:
+2025-11-08 11:49:24,538 - INFO -     g__Streptococcus_ASV-1: importance=0.026847, abundance=390466.000000
+2025-11-08 11:49:24,538 - INFO -     g__Staphylococcus_ASV-1: importance=0.023636, abundance=338405.000000
+2025-11-08 11:49:24,538 - INFO -     g__Corynebacterium_ASV-1: importance=0.019523, abundance=39656.000000
+2025-11-08 11:49:24,539 - INFO -     g__Haemophilus_D_734546_ASV-1: importance=0.017108, abundance=146910.000000
+2025-11-08 11:49:24,539 - INFO -     g__Dolosigranulum_ASV-1: importance=0.016622, abundance=23399.000000
+2025-11-08 11:49:24,539 - INFO - 
+feature_importance_skin-ADNL_vs_skin-ADL.csv
+2025-11-08 11:49:24,550 - INFO -   Mapped 1686/1686 ASVs (excluding g__ASV entries)
+2025-11-08 11:49:24,550 - INFO -   Saved to: feature_importance_skin-ADNL_vs_skin-ADL_ASV-name.csv
+2025-11-08 11:49:24,550 - INFO -   Top 5 most important ASVs:
+2025-11-08 11:49:24,551 - INFO -     g__Streptococcus_ASV-1: importance=0.016482, abundance=390466.000000
+2025-11-08 11:49:24,551 - INFO -     g__Neisseria_563205_ASV-2: importance=0.013164, abundance=9347.000000
+2025-11-08 11:49:24,551 - INFO -     g__Granulicatella_ASV-1: importance=0.012339, abundance=5761.000000
+2025-11-08 11:49:24,551 - INFO -     g__Veillonella_A_ASV-1: importance=0.011492, abundance=15862.000000
+2025-11-08 11:49:24,552 - INFO -     g__Staphylococcus_ASV-1: importance=0.010627, abundance=338405.000000
+2025-11-08 11:49:24,552 - INFO - 
+feature_importance_skin-ADL_vs_skin-H.csv
+2025-11-08 11:49:24,563 - INFO -   Mapped 1686/1686 ASVs (excluding g__ASV entries)
+2025-11-08 11:49:24,563 - INFO -   Saved to: feature_importance_skin-ADL_vs_skin-H_ASV-name.csv
+2025-11-08 11:49:24,563 - INFO -   Top 5 most important ASVs:
+2025-11-08 11:49:24,563 - INFO -     g__Streptococcus_ASV-1: importance=0.023936, abundance=390466.000000
+2025-11-08 11:49:24,564 - INFO -     g__Veillonella_A_ASV-1: importance=0.014396, abundance=15862.000000
+2025-11-08 11:49:24,564 - INFO -     g__Haemophilus_D_735815_ASV-1: importance=0.011715, abundance=5737.000000
+2025-11-08 11:49:24,564 - INFO -     g__Micrococcus_ASV-1: importance=0.010577, abundance=35548.000000
+2025-11-08 11:49:24,564 - INFO -     g__Granulicatella_ASV-1: importance=0.010432, abundance=5761.000000
+2025-11-08 11:49:24,564 - INFO - 
+feature_importance_skin-ADNL_vs_skin-H.csv
+2025-11-08 11:49:24,575 - INFO -   Mapped 1686/1686 ASVs (excluding g__ASV entries)
+2025-11-08 11:49:24,575 - INFO -   Saved to: feature_importance_skin-ADNL_vs_skin-H_ASV-name.csv
+2025-11-08 11:49:24,575 - INFO -   Top 5 most important ASVs:
+2025-11-08 11:49:24,576 - INFO -     g__Staphylococcus_ASV-1: importance=0.016738, abundance=338405.000000
+2025-11-08 11:49:24,576 - INFO -     g__Staphylococcus_ASV-2: importance=0.015580, abundance=148310.000000
+2025-11-08 11:49:24,576 - INFO -     g__Cutibacterium_ASV-1: importance=0.015076, abundance=14345.000000
+2025-11-08 11:49:24,577 - INFO -     g__Streptococcus_ASV-1: importance=0.014895, abundance=390466.000000
+2025-11-08 11:49:24,577 - INFO -     g__Brachybacterium_ASV-1: importance=0.011247, abundance=4901.000000
+2025-11-08 11:49:24,577 - INFO - 
+feature_importance_skin_vs_nares.csv
+2025-11-08 11:49:24,589 - INFO -   Mapped 1686/1686 ASVs (excluding g__ASV entries)
+2025-11-08 11:49:24,589 - INFO -   Saved to: feature_importance_skin_vs_nares_ASV-name.csv
+2025-11-08 11:49:24,589 - INFO -   Top 5 most important ASVs:
+2025-11-08 11:49:24,589 - INFO -     g__Dolosigranulum_ASV-1: importance=0.055175, abundance=23399.000000
+2025-11-08 11:49:24,589 - INFO -     g__Corynebacterium_ASV-1: importance=0.046910, abundance=39656.000000
+2025-11-08 11:49:24,590 - INFO -     g__Staphylococcus_ASV-1: importance=0.038405, abundance=338405.000000
+2025-11-08 11:49:24,590 - INFO -     g__Streptococcus_ASV-1: importance=0.038374, abundance=390466.000000
+2025-11-08 11:49:24,590 - INFO -     g__Staphylococcus_ASV-2: importance=0.022650, abundance=148310.000000
+2025-11-08 11:49:24,597 - INFO - Saved detailed mapping: ../Data/Taxonomy/ASV_readable_name_mapping_abundance_ranked.csv
+2025-11-08 11:49:24,597 - INFO - COMPLETE!

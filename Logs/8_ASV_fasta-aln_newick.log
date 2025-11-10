@@ -1,0 +1,242 @@
+2025-11-08 12:51:53,585 - INFO - Starting MAFFT + FastTree for ASV FASTAs (ALL, SKIN, NASAL).
+2025-11-08 12:51:53,593 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_all.fasta
+2025-11-08 12:51:54,825 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_all_aln.fasta
+2025-11-08 12:51:54,826 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_all_aln.fasta
+2025-11-08 12:51:54,949 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_all_aln.nwk
+2025-11-08 12:51:54,950 - INFO - Completed tree for all (10pct, depth=350)
+2025-11-08 12:51:54,950 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_skin.fasta
+2025-11-08 12:51:56,154 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_skin_aln.fasta
+2025-11-08 12:51:56,154 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_skin_aln.fasta
+2025-11-08 12:51:56,276 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_skin_aln.nwk
+2025-11-08 12:51:56,276 - INFO - Completed tree for skin (10pct, depth=350)
+2025-11-08 12:51:56,277 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_nasal.fasta
+2025-11-08 12:51:57,449 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:51:57,449 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:51:57,573 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:51:57,573 - INFO - Completed tree for nasal (10pct, depth=350)
+2025-11-08 12:51:57,574 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_all.fasta
+2025-11-08 12:51:58,750 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_all_aln.fasta
+2025-11-08 12:51:58,750 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_all_aln.fasta
+2025-11-08 12:51:58,874 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_all_aln.nwk
+2025-11-08 12:51:58,874 - INFO - Completed tree for all (10pct, depth=1000)
+2025-11-08 12:51:58,874 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_skin.fasta
+2025-11-08 12:52:00,056 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:00,056 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:00,179 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:00,179 - INFO - Completed tree for skin (10pct, depth=1000)
+2025-11-08 12:52:00,180 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_nasal.fasta
+2025-11-08 12:52:01,359 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:01,359 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:01,481 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:01,481 - INFO - Completed tree for nasal (10pct, depth=1000)
+2025-11-08 12:52:01,482 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_all.fasta
+2025-11-08 12:52:02,699 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:02,700 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:02,821 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_all_aln.nwk
+2025-11-08 12:52:02,822 - INFO - Completed tree for all (10pct, depth=1500)
+2025-11-08 12:52:02,822 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_skin.fasta
+2025-11-08 12:52:04,009 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:04,009 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:04,132 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:04,132 - INFO - Completed tree for skin (10pct, depth=1500)
+2025-11-08 12:52:04,134 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_nasal.fasta
+2025-11-08 12:52:05,341 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:05,341 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:05,464 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:05,464 - INFO - Completed tree for nasal (10pct, depth=1500)
+2025-11-08 12:52:05,465 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_all.fasta
+2025-11-08 12:52:06,652 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:06,652 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:06,775 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_all_aln.nwk
+2025-11-08 12:52:06,775 - INFO - Completed tree for all (10pct, depth=2000)
+2025-11-08 12:52:06,776 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_skin.fasta
+2025-11-08 12:52:07,965 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:07,966 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:08,089 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:08,089 - INFO - Completed tree for skin (10pct, depth=2000)
+2025-11-08 12:52:08,090 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_nasal.fasta
+2025-11-08 12:52:09,282 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:09,283 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:09,407 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:09,407 - INFO - Completed tree for nasal (10pct, depth=2000)
+2025-11-08 12:52:09,408 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_all.fasta
+2025-11-08 12:52:10,563 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:10,563 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:10,820 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_all_aln.nwk
+2025-11-08 12:52:10,820 - INFO - Completed tree for all (5pct, depth=350)
+2025-11-08 12:52:10,822 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_skin.fasta
+2025-11-08 12:52:11,963 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:11,963 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:12,221 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:12,221 - INFO - Completed tree for skin (5pct, depth=350)
+2025-11-08 12:52:12,222 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_nasal.fasta
+2025-11-08 12:52:13,352 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:13,352 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:13,592 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:13,592 - INFO - Completed tree for nasal (5pct, depth=350)
+2025-11-08 12:52:13,594 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_all.fasta
+2025-11-08 12:52:14,733 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:14,733 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:14,991 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_all_aln.nwk
+2025-11-08 12:52:14,991 - INFO - Completed tree for all (5pct, depth=1000)
+2025-11-08 12:52:14,992 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_skin.fasta
+2025-11-08 12:52:16,146 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:16,146 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:16,405 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:16,405 - INFO - Completed tree for skin (5pct, depth=1000)
+2025-11-08 12:52:16,407 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_nasal.fasta
+2025-11-08 12:52:17,533 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:17,533 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:17,781 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:17,781 - INFO - Completed tree for nasal (5pct, depth=1000)
+2025-11-08 12:52:17,783 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_all.fasta
+2025-11-08 12:52:18,930 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:18,930 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:19,189 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_all_aln.nwk
+2025-11-08 12:52:19,189 - INFO - Completed tree for all (5pct, depth=1500)
+2025-11-08 12:52:19,190 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_skin.fasta
+2025-11-08 12:52:20,343 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:20,343 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:20,601 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:20,601 - INFO - Completed tree for skin (5pct, depth=1500)
+2025-11-08 12:52:20,602 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_nasal.fasta
+2025-11-08 12:52:21,862 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:21,862 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:22,111 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:22,112 - INFO - Completed tree for nasal (5pct, depth=1500)
+2025-11-08 12:52:22,113 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_all.fasta
+2025-11-08 12:52:23,258 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:23,259 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:23,519 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_all_aln.nwk
+2025-11-08 12:52:23,519 - INFO - Completed tree for all (5pct, depth=2000)
+2025-11-08 12:52:23,521 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_skin.fasta
+2025-11-08 12:52:24,665 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:24,665 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:24,925 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:24,925 - INFO - Completed tree for skin (5pct, depth=2000)
+2025-11-08 12:52:24,927 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_nasal.fasta
+2025-11-08 12:52:26,177 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:26,177 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:26,423 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:26,423 - INFO - Completed tree for nasal (5pct, depth=2000)
+2025-11-08 12:52:26,425 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_all.fasta
+2025-11-08 12:52:27,594 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:27,595 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:28,523 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_all_aln.nwk
+2025-11-08 12:52:28,523 - INFO - Completed tree for all (1pct, depth=350)
+2025-11-08 12:52:28,525 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_skin.fasta
+2025-11-08 12:52:29,673 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:29,674 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:30,575 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:30,575 - INFO - Completed tree for skin (1pct, depth=350)
+2025-11-08 12:52:30,577 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_nasal.fasta
+2025-11-08 12:52:31,547 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:31,547 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:32,119 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:32,120 - INFO - Completed tree for nasal (1pct, depth=350)
+2025-11-08 12:52:32,123 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_all.fasta
+2025-11-08 12:52:33,311 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:33,311 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:34,287 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_all_aln.nwk
+2025-11-08 12:52:34,287 - INFO - Completed tree for all (1pct, depth=1000)
+2025-11-08 12:52:34,290 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_skin.fasta
+2025-11-08 12:52:35,473 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:35,473 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:36,446 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:36,446 - INFO - Completed tree for skin (1pct, depth=1000)
+2025-11-08 12:52:36,449 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_nasal.fasta
+2025-11-08 12:52:37,473 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:37,473 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:38,135 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:38,135 - INFO - Completed tree for nasal (1pct, depth=1000)
+2025-11-08 12:52:38,138 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_all.fasta
+2025-11-08 12:52:39,338 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:39,338 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:40,324 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_all_aln.nwk
+2025-11-08 12:52:40,324 - INFO - Completed tree for all (1pct, depth=1500)
+2025-11-08 12:52:40,327 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_skin.fasta
+2025-11-08 12:52:41,514 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:41,514 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:42,467 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:42,467 - INFO - Completed tree for skin (1pct, depth=1500)
+2025-11-08 12:52:42,470 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_nasal.fasta
+2025-11-08 12:52:43,489 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:43,489 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:44,131 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:44,131 - INFO - Completed tree for nasal (1pct, depth=1500)
+2025-11-08 12:52:44,134 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_all.fasta
+2025-11-08 12:52:45,349 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:45,349 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:46,308 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_all_aln.nwk
+2025-11-08 12:52:46,309 - INFO - Completed tree for all (1pct, depth=2000)
+2025-11-08 12:52:46,312 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_skin.fasta
+2025-11-08 12:52:47,480 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:47,480 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:48,416 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:48,416 - INFO - Completed tree for skin (1pct, depth=2000)
+2025-11-08 12:52:48,419 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_nasal.fasta
+2025-11-08 12:52:49,447 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:49,447 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:50,105 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:50,105 - INFO - Completed tree for nasal (1pct, depth=2000)
+2025-11-08 12:52:50,109 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_all.fasta
+2025-11-08 12:52:51,820 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:51,820 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_all_aln.fasta
+2025-11-08 12:52:53,480 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_all_aln.nwk
+2025-11-08 12:52:53,480 - INFO - Completed tree for all (0pct, depth=350)
+2025-11-08 12:52:53,483 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_skin.fasta
+2025-11-08 12:52:55,094 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:55,094 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_skin_aln.fasta
+2025-11-08 12:52:56,615 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_skin_aln.nwk
+2025-11-08 12:52:56,615 - INFO - Completed tree for skin (0pct, depth=350)
+2025-11-08 12:52:56,617 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_nasal.fasta
+2025-11-08 12:52:57,658 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:57,658 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:52:58,324 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:52:58,324 - INFO - Completed tree for nasal (0pct, depth=350)
+2025-11-08 12:52:58,328 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_all.fasta
+2025-11-08 12:53:00,384 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_all_aln.fasta
+2025-11-08 12:53:00,385 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_all_aln.fasta
+2025-11-08 12:53:02,468 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_all_aln.nwk
+2025-11-08 12:53:02,468 - INFO - Completed tree for all (0pct, depth=1000)
+2025-11-08 12:53:02,472 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_skin.fasta
+2025-11-08 12:53:04,372 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:53:04,372 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:53:06,329 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_skin_aln.nwk
+2025-11-08 12:53:06,329 - INFO - Completed tree for skin (0pct, depth=1000)
+2025-11-08 12:53:06,330 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_nasal.fasta
+2025-11-08 12:53:07,458 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:53:07,458 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:53:08,361 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:53:08,361 - INFO - Completed tree for nasal (0pct, depth=1000)
+2025-11-08 12:53:08,365 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_all.fasta
+2025-11-08 12:53:10,516 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_all_aln.fasta
+2025-11-08 12:53:10,517 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_all_aln.fasta
+2025-11-08 12:53:12,723 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_all_aln.nwk
+2025-11-08 12:53:12,723 - INFO - Completed tree for all (0pct, depth=1500)
+2025-11-08 12:53:12,726 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_skin.fasta
+2025-11-08 12:53:14,782 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_skin_aln.fasta
+2025-11-08 12:53:14,782 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_skin_aln.fasta
+2025-11-08 12:53:16,816 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_skin_aln.nwk
+2025-11-08 12:53:16,816 - INFO - Completed tree for skin (0pct, depth=1500)
+2025-11-08 12:53:16,818 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_nasal.fasta
+2025-11-08 12:53:17,992 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:53:17,993 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:53:18,838 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:53:18,838 - INFO - Completed tree for nasal (0pct, depth=1500)
+2025-11-08 12:53:18,842 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_all.fasta
+2025-11-08 12:53:20,997 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_all_aln.fasta
+2025-11-08 12:53:20,997 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_all_aln.fasta
+2025-11-08 12:53:23,134 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_all_aln.nwk
+2025-11-08 12:53:23,134 - INFO - Completed tree for all (0pct, depth=2000)
+2025-11-08 12:53:23,138 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_skin.fasta
+2025-11-08 12:53:25,171 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:53:25,171 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_skin_aln.fasta
+2025-11-08 12:53:27,159 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_skin_aln.nwk
+2025-11-08 12:53:27,159 - INFO - Completed tree for skin (0pct, depth=2000)
+2025-11-08 12:53:27,161 - INFO - Running MAFFT on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_nasal.fasta
+2025-11-08 12:53:28,316 - INFO - Alignment successfully written to ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:53:28,316 - INFO - Running FastTree on ../Data/Fasta/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_nasal_aln.fasta
+2025-11-08 12:53:29,134 - INFO - Tree successfully written to ../Data/Trees/209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_nasal_aln.nwk
+2025-11-08 12:53:29,134 - INFO - Completed tree for nasal (0pct, depth=2000)
+2025-11-08 12:53:29,134 - INFO - All alignments and trees generated successfully (ALL, SKIN, NASAL).
