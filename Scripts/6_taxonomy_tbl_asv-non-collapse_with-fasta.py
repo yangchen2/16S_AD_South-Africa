@@ -118,11 +118,11 @@ if __name__ == "__main__":
         prevalence_thresholds = ["10pct", "5pct", "1pct", "0pct"]
         taxonomy_level = "Genus"
         rarefaction_depths = [350, 1000, 1500, 2000]
-        biom_prefixes = ["5_", "3_"]
+        biom_input_prefix = ["5_"]
 
         for prevalence in prevalence_thresholds:
             for depth in rarefaction_depths:
-                for biom_prefix in biom_prefixes:
+                for biom_prefix in biom_input_prefix:
                     biom_path = (
                         f"../Data/Tables/Count_Tables/"
                         f"{biom_prefix}209766_feature_table_dedup_prev-filt-{prevalence}_rare-{depth}.biom"
@@ -165,9 +165,10 @@ if __name__ == "__main__":
 
                         # Save BIOM
                         if WRITE_BIOM:
+                            biom_output_prefix = "6_"
                             biom_outfile = (
                                 f"../Data/Tables/Count_Tables/"
-                                f"6_{biom_prefix}209766_feature_table_dedup_prev-filt-{prevalence}_rare-{depth}_Genus-ASV_{variant}.biom"
+                                f"{biom_output_prefix}209766_feature_table_dedup_prev-filt-{prevalence}_rare-{depth}_Genus-ASV_{variant}.biom"
                             )
                             save_biom_table(df_counts_subset, biom_outfile)
 
