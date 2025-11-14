@@ -1,179 +1,111 @@
-2025-11-10 12:55:11,269 - INFO - Loading Greengenes2 taxonomy artifact...
-2025-11-10 12:56:06,942 - INFO - Greengenes2 taxonomy successfully loaded.
-2025-11-10 12:56:06,969 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-350.biom with shape (421, 120)
-2025-11-10 12:56:08,007 - INFO - Saving all: 120 features, depth=350
-2025-11-10 12:56:08,027 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_all.biom
-2025-11-10 12:56:08,042 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_all.fasta (120 sequences)
-2025-11-10 12:56:08,055 - INFO - Saving skin: 120 features, depth=350
-2025-11-10 12:56:08,080 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_skin.biom
-2025-11-10 12:56:08,097 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_skin.fasta (120 sequences)
-2025-11-10 12:56:08,111 - INFO - Saving nasal: 120 features, depth=350
-2025-11-10 12:56:08,122 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_nasal.biom
-2025-11-10 12:56:08,137 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_nasal.fasta (120 sequences)
-2025-11-10 12:56:08,137 - INFO - Completed: prefix=5_, prevalence=10pct, depth=350
-2025-11-10 12:56:08,210 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-1000.biom with shape (334, 120)
-2025-11-10 12:56:08,761 - INFO - Saving all: 120 features, depth=1000
-2025-11-10 12:56:08,821 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_all.biom
-2025-11-10 12:56:08,863 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_all.fasta (120 sequences)
-2025-11-10 12:56:08,886 - INFO - Saving skin: 120 features, depth=1000
-2025-11-10 12:56:08,903 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_skin.biom
-2025-11-10 12:56:08,919 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_skin.fasta (120 sequences)
-2025-11-10 12:56:08,933 - INFO - Saving nasal: 120 features, depth=1000
-2025-11-10 12:56:08,943 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_nasal.biom
-2025-11-10 12:56:08,958 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_nasal.fasta (120 sequences)
-2025-11-10 12:56:08,958 - INFO - Completed: prefix=5_, prevalence=10pct, depth=1000
-2025-11-10 12:56:08,968 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-1500.biom with shape (283, 120)
-2025-11-10 12:56:09,413 - INFO - Saving all: 120 features, depth=1500
-2025-11-10 12:56:09,429 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_all.biom
-2025-11-10 12:56:09,443 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_all.fasta (120 sequences)
-2025-11-10 12:56:09,456 - INFO - Saving skin: 120 features, depth=1500
-2025-11-10 12:56:09,467 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_skin.biom
-2025-11-10 12:56:09,481 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_skin.fasta (120 sequences)
-2025-11-10 12:56:09,494 - INFO - Saving nasal: 120 features, depth=1500
-2025-11-10 12:56:09,503 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_nasal.biom
-2025-11-10 12:56:09,517 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_nasal.fasta (120 sequences)
-2025-11-10 12:56:09,517 - INFO - Completed: prefix=5_, prevalence=10pct, depth=1500
-2025-11-10 12:56:09,526 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-10pct_rare-2000.biom with shape (252, 120)
-2025-11-10 12:56:09,925 - INFO - Saving all: 120 features, depth=2000
-2025-11-10 12:56:09,939 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_all.biom
-2025-11-10 12:56:09,954 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_all.fasta (120 sequences)
-2025-11-10 12:56:09,967 - INFO - Saving skin: 120 features, depth=2000
-2025-11-10 12:56:09,977 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_skin.biom
-2025-11-10 12:56:09,991 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_skin.fasta (120 sequences)
-2025-11-10 12:56:10,004 - INFO - Saving nasal: 120 features, depth=2000
-2025-11-10 12:56:10,012 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_nasal.biom
-2025-11-10 12:56:10,026 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_nasal.fasta (120 sequences)
-2025-11-10 12:56:10,026 - INFO - Completed: prefix=5_, prevalence=10pct, depth=2000
-2025-11-10 12:56:10,040 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-350.biom with shape (427, 262)
-2025-11-10 12:56:11,241 - INFO - Saving all: 261 features, depth=350
-2025-11-10 12:56:11,264 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_all.biom
-2025-11-10 12:56:11,294 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_all.fasta (261 sequences)
-2025-11-10 12:56:11,323 - INFO - Saving skin: 261 features, depth=350
-2025-11-10 12:56:11,339 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_skin.biom
-2025-11-10 12:56:11,369 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_skin.fasta (261 sequences)
-2025-11-10 12:56:11,396 - INFO - Saving nasal: 247 features, depth=350
-2025-11-10 12:56:11,408 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_nasal.biom
-2025-11-10 12:56:11,436 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_nasal.fasta (247 sequences)
-2025-11-10 12:56:11,436 - INFO - Completed: prefix=5_, prevalence=5pct, depth=350
-2025-11-10 12:56:11,450 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-1000.biom with shape (344, 262)
-2025-11-10 12:56:12,464 - INFO - Saving all: 261 features, depth=1000
-2025-11-10 12:56:12,484 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_all.biom
-2025-11-10 12:56:12,514 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_all.fasta (261 sequences)
-2025-11-10 12:56:12,541 - INFO - Saving skin: 261 features, depth=1000
-2025-11-10 12:56:12,556 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_skin.biom
-2025-11-10 12:56:12,586 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_skin.fasta (261 sequences)
-2025-11-10 12:56:12,614 - INFO - Saving nasal: 255 features, depth=1000
-2025-11-10 12:56:12,626 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_nasal.biom
-2025-11-10 12:56:12,656 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_nasal.fasta (255 sequences)
-2025-11-10 12:56:12,656 - INFO - Completed: prefix=5_, prevalence=5pct, depth=1000
-2025-11-10 12:56:12,668 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-1500.biom with shape (298, 262)
-2025-11-10 12:56:13,535 - INFO - Saving all: 261 features, depth=1500
-2025-11-10 12:56:13,554 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_all.biom
-2025-11-10 12:56:13,584 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_all.fasta (261 sequences)
-2025-11-10 12:56:13,612 - INFO - Saving skin: 261 features, depth=1500
-2025-11-10 12:56:13,626 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_skin.biom
-2025-11-10 12:56:13,656 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_skin.fasta (261 sequences)
-2025-11-10 12:56:13,683 - INFO - Saving nasal: 252 features, depth=1500
-2025-11-10 12:56:13,694 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_nasal.biom
-2025-11-10 12:56:13,723 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_nasal.fasta (252 sequences)
-2025-11-10 12:56:13,723 - INFO - Completed: prefix=5_, prevalence=5pct, depth=1500
-2025-11-10 12:56:13,735 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-5pct_rare-2000.biom with shape (260, 262)
-2025-11-10 12:56:14,451 - INFO - Saving all: 261 features, depth=2000
-2025-11-10 12:56:14,469 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_all.biom
-2025-11-10 12:56:14,499 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_all.fasta (261 sequences)
-2025-11-10 12:56:14,583 - INFO - Saving skin: 261 features, depth=2000
-2025-11-10 12:56:14,596 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_skin.biom
-2025-11-10 12:56:14,626 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_skin.fasta (261 sequences)
-2025-11-10 12:56:14,653 - INFO - Saving nasal: 252 features, depth=2000
-2025-11-10 12:56:14,663 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_nasal.biom
-2025-11-10 12:56:14,693 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_nasal.fasta (252 sequences)
-2025-11-10 12:56:14,693 - INFO - Completed: prefix=5_, prevalence=5pct, depth=2000
-2025-11-10 12:56:14,722 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-350.biom with shape (431, 868)
-2025-11-10 12:56:17,888 - INFO - Saving all: 837 features, depth=350
-2025-11-10 12:56:17,923 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_all.biom
-2025-11-10 12:56:18,018 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_all.fasta (837 sequences)
-2025-11-10 12:56:18,107 - INFO - Saving skin: 809 features, depth=350
-2025-11-10 12:56:18,133 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_skin.biom
-2025-11-10 12:56:18,225 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_skin.fasta (809 sequences)
-2025-11-10 12:56:18,308 - INFO - Saving nasal: 534 features, depth=350
-2025-11-10 12:56:18,323 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_nasal.biom
-2025-11-10 12:56:18,383 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_nasal.fasta (534 sequences)
-2025-11-10 12:56:18,383 - INFO - Completed: prefix=5_, prevalence=1pct, depth=350
-2025-11-10 12:56:18,412 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-1000.biom with shape (355, 868)
-2025-11-10 12:56:20,970 - INFO - Saving all: 859 features, depth=1000
-2025-11-10 12:56:21,004 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_all.biom
-2025-11-10 12:56:21,101 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_all.fasta (859 sequences)
-2025-11-10 12:56:21,193 - INFO - Saving skin: 849 features, depth=1000
-2025-11-10 12:56:21,218 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_skin.biom
-2025-11-10 12:56:21,315 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_skin.fasta (849 sequences)
-2025-11-10 12:56:21,400 - INFO - Saving nasal: 619 features, depth=1000
-2025-11-10 12:56:21,417 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_nasal.biom
-2025-11-10 12:56:21,487 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_nasal.fasta (619 sequences)
-2025-11-10 12:56:21,487 - INFO - Completed: prefix=5_, prevalence=1pct, depth=1000
-2025-11-10 12:56:21,575 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-1500.biom with shape (309, 868)
-2025-11-10 12:56:23,845 - INFO - Saving all: 859 features, depth=1500
-2025-11-10 12:56:23,879 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_all.biom
-2025-11-10 12:56:23,977 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_all.fasta (859 sequences)
-2025-11-10 12:56:24,067 - INFO - Saving skin: 852 features, depth=1500
-2025-11-10 12:56:24,092 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_skin.biom
-2025-11-10 12:56:24,192 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_skin.fasta (852 sequences)
-2025-11-10 12:56:24,284 - INFO - Saving nasal: 611 features, depth=1500
-2025-11-10 12:56:24,301 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_nasal.biom
-2025-11-10 12:56:24,371 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_nasal.fasta (611 sequences)
-2025-11-10 12:56:24,372 - INFO - Completed: prefix=5_, prevalence=1pct, depth=1500
-2025-11-10 12:56:24,400 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-1pct_rare-2000.biom with shape (271, 868)
-2025-11-10 12:56:26,380 - INFO - Saving all: 857 features, depth=2000
-2025-11-10 12:56:26,409 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_all.biom
-2025-11-10 12:56:26,506 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_all.fasta (857 sequences)
-2025-11-10 12:56:26,596 - INFO - Saving skin: 847 features, depth=2000
-2025-11-10 12:56:26,619 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_skin.biom
-2025-11-10 12:56:26,717 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_skin.fasta (847 sequences)
-2025-11-10 12:56:26,804 - INFO - Saving nasal: 616 features, depth=2000
-2025-11-10 12:56:26,821 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_nasal.biom
-2025-11-10 12:56:26,892 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_nasal.fasta (616 sequences)
-2025-11-10 12:56:26,892 - INFO - Completed: prefix=5_, prevalence=1pct, depth=2000
-2025-11-10 12:56:27,012 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-350.biom with shape (432, 2283)
-2025-11-10 12:56:32,961 - INFO - Saving all: 1420 features, depth=350
-2025-11-10 12:56:33,007 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_all.biom
-2025-11-10 12:56:33,175 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_all.fasta (1420 sequences)
-2025-11-10 12:56:33,452 - INFO - Saving skin: 1322 features, depth=350
-2025-11-10 12:56:33,486 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_skin.biom
-2025-11-10 12:56:33,640 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_skin.fasta (1322 sequences)
-2025-11-10 12:56:33,834 - INFO - Saving nasal: 636 features, depth=350
-2025-11-10 12:56:33,852 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_nasal.biom
-2025-11-10 12:56:33,924 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_nasal.fasta (636 sequences)
-2025-11-10 12:56:33,924 - INFO - Completed: prefix=5_, prevalence=0pct, depth=350
-2025-11-10 12:56:33,984 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-1000.biom with shape (359, 2283)
-2025-11-10 12:56:39,118 - INFO - Saving all: 1683 features, depth=1000
-2025-11-10 12:56:39,166 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_all.biom
-2025-11-10 12:56:39,358 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_all.fasta (1683 sequences)
-2025-11-10 12:56:39,640 - INFO - Saving skin: 1576 features, depth=1000
-2025-11-10 12:56:39,678 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_skin.biom
-2025-11-10 12:56:39,861 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_skin.fasta (1576 sequences)
-2025-11-10 12:56:40,060 - INFO - Saving nasal: 773 features, depth=1000
-2025-11-10 12:56:40,079 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_nasal.biom
-2025-11-10 12:56:40,167 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_nasal.fasta (773 sequences)
-2025-11-10 12:56:40,167 - INFO - Completed: prefix=5_, prevalence=0pct, depth=1000
-2025-11-10 12:56:40,286 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-1500.biom with shape (309, 2283)
-2025-11-10 12:56:44,778 - INFO - Saving all: 1737 features, depth=1500
-2025-11-10 12:56:44,825 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_all.biom
-2025-11-10 12:56:45,024 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_all.fasta (1737 sequences)
-2025-11-10 12:56:45,249 - INFO - Saving skin: 1645 features, depth=1500
-2025-11-10 12:56:45,286 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_skin.biom
-2025-11-10 12:56:45,476 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_skin.fasta (1645 sequences)
-2025-11-10 12:56:45,736 - INFO - Saving nasal: 781 features, depth=1500
-2025-11-10 12:56:45,755 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_nasal.biom
-2025-11-10 12:56:45,845 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_nasal.fasta (781 sequences)
-2025-11-10 12:56:45,845 - INFO - Completed: prefix=5_, prevalence=0pct, depth=1500
-2025-11-10 12:56:45,903 - INFO - Loaded BIOM ../Data/Tables/Count_Tables/5_209766_feature_table_dedup_prev-filt-0pct_rare-2000.biom with shape (274, 2283)
-2025-11-10 12:56:49,873 - INFO - Saving all: 1733 features, depth=2000
-2025-11-10 12:56:49,917 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_all.biom
-2025-11-10 12:56:50,117 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_all.fasta (1733 sequences)
-2025-11-10 12:56:50,345 - INFO - Saving skin: 1637 features, depth=2000
-2025-11-10 12:56:50,379 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_skin.biom
-2025-11-10 12:56:50,573 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_skin.fasta (1637 sequences)
-2025-11-10 12:56:50,841 - INFO - Saving nasal: 760 features, depth=2000
-2025-11-10 12:56:50,860 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_nasal.biom
-2025-11-10 12:56:50,947 - INFO - FASTA written: ../Data/Fasta/5_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_nasal.fasta (760 sequences)
-2025-11-10 12:56:50,947 - INFO - Completed: prefix=5_, prevalence=0pct, depth=2000
-2025-11-10 12:56:50,947 - INFO - All taxonomy mappings, BIOMs, and FASTAs completed (ALL, SKIN, NASAL).
+2025-11-13 16:07:50,974 - INFO - Loading Greengenes2 taxonomy artifact...
+2025-11-13 16:08:36,775 - INFO - Greengenes2 taxonomy successfully loaded.
+2025-11-13 16:08:37,806 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_all.biom
+2025-11-13 16:08:37,821 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-10pct_Genus-ASV_all.fasta (120 sequences)
+2025-11-13 16:08:37,847 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_skin.biom
+2025-11-13 16:08:37,862 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-10pct_Genus-ASV_skin.fasta (120 sequences)
+2025-11-13 16:08:37,886 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-350_Genus-ASV_nasal.biom
+2025-11-13 16:08:37,900 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-10pct_Genus-ASV_nasal.fasta (120 sequences)
+2025-11-13 16:08:38,495 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_all.biom
+2025-11-13 16:08:38,509 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-10pct_Genus-ASV_all.fasta (120 sequences)
+2025-11-13 16:08:38,534 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_skin.biom
+2025-11-13 16:08:38,549 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-10pct_Genus-ASV_skin.fasta (120 sequences)
+2025-11-13 16:08:38,571 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1000_Genus-ASV_nasal.biom
+2025-11-13 16:08:38,586 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-10pct_Genus-ASV_nasal.fasta (120 sequences)
+2025-11-13 16:08:39,048 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_all.biom
+2025-11-13 16:08:39,063 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-10pct_Genus-ASV_all.fasta (120 sequences)
+2025-11-13 16:08:39,087 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_skin.biom
+2025-11-13 16:08:39,102 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-10pct_Genus-ASV_skin.fasta (120 sequences)
+2025-11-13 16:08:39,125 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-1500_Genus-ASV_nasal.biom
+2025-11-13 16:08:39,139 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-10pct_Genus-ASV_nasal.fasta (120 sequences)
+2025-11-13 16:08:39,567 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_all.biom
+2025-11-13 16:08:39,580 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-10pct_Genus-ASV_all.fasta (120 sequences)
+2025-11-13 16:08:39,604 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_skin.biom
+2025-11-13 16:08:39,618 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-10pct_Genus-ASV_skin.fasta (120 sequences)
+2025-11-13 16:08:39,639 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_rare-2000_Genus-ASV_nasal.biom
+2025-11-13 16:08:39,653 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-10pct_Genus-ASV_nasal.fasta (120 sequences)
+2025-11-13 16:08:40,913 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_all.biom
+2025-11-13 16:08:40,944 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-5pct_Genus-ASV_all.fasta (261 sequences)
+2025-11-13 16:08:40,990 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_skin.biom
+2025-11-13 16:08:41,020 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-5pct_Genus-ASV_skin.fasta (261 sequences)
+2025-11-13 16:08:41,059 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-350_Genus-ASV_nasal.biom
+2025-11-13 16:08:41,089 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-5pct_Genus-ASV_nasal.fasta (247 sequences)
+2025-11-13 16:08:42,134 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_all.biom
+2025-11-13 16:08:42,164 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-5pct_Genus-ASV_all.fasta (261 sequences)
+2025-11-13 16:08:42,206 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_skin.biom
+2025-11-13 16:08:42,236 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-5pct_Genus-ASV_skin.fasta (261 sequences)
+2025-11-13 16:08:42,277 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1000_Genus-ASV_nasal.biom
+2025-11-13 16:08:42,307 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-5pct_Genus-ASV_nasal.fasta (255 sequences)
+2025-11-13 16:08:43,199 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_all.biom
+2025-11-13 16:08:43,230 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-5pct_Genus-ASV_all.fasta (261 sequences)
+2025-11-13 16:08:43,273 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_skin.biom
+2025-11-13 16:08:43,303 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-5pct_Genus-ASV_skin.fasta (261 sequences)
+2025-11-13 16:08:43,340 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-1500_Genus-ASV_nasal.biom
+2025-11-13 16:08:43,370 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-5pct_Genus-ASV_nasal.fasta (252 sequences)
+2025-11-13 16:08:44,116 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_all.biom
+2025-11-13 16:08:44,145 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-5pct_Genus-ASV_all.fasta (261 sequences)
+2025-11-13 16:08:44,185 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_skin.biom
+2025-11-13 16:08:44,215 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-5pct_Genus-ASV_skin.fasta (261 sequences)
+2025-11-13 16:08:44,308 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_rare-2000_Genus-ASV_nasal.biom
+2025-11-13 16:08:44,337 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-5pct_Genus-ASV_nasal.fasta (252 sequences)
+2025-11-13 16:08:47,601 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_all.biom
+2025-11-13 16:08:47,698 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-1pct_Genus-ASV_all.fasta (837 sequences)
+2025-11-13 16:08:47,812 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_skin.biom
+2025-11-13 16:08:47,905 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-1pct_Genus-ASV_skin.fasta (809 sequences)
+2025-11-13 16:08:48,003 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-350_Genus-ASV_nasal.biom
+2025-11-13 16:08:48,065 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-1pct_Genus-ASV_nasal.fasta (534 sequences)
+2025-11-13 16:08:50,680 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_all.biom
+2025-11-13 16:08:50,778 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-1pct_Genus-ASV_all.fasta (859 sequences)
+2025-11-13 16:08:50,895 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_skin.biom
+2025-11-13 16:08:50,994 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-1pct_Genus-ASV_skin.fasta (849 sequences)
+2025-11-13 16:08:51,094 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1000_Genus-ASV_nasal.biom
+2025-11-13 16:08:51,165 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-1pct_Genus-ASV_nasal.fasta (619 sequences)
+2025-11-13 16:08:53,517 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_all.biom
+2025-11-13 16:08:53,615 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-1pct_Genus-ASV_all.fasta (859 sequences)
+2025-11-13 16:08:53,728 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_skin.biom
+2025-11-13 16:08:53,825 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-1pct_Genus-ASV_skin.fasta (852 sequences)
+2025-11-13 16:08:53,922 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-1500_Genus-ASV_nasal.biom
+2025-11-13 16:08:53,994 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-1pct_Genus-ASV_nasal.fasta (611 sequences)
+2025-11-13 16:08:56,018 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_all.biom
+2025-11-13 16:08:56,117 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-1pct_Genus-ASV_all.fasta (857 sequences)
+2025-11-13 16:08:56,232 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_skin.biom
+2025-11-13 16:08:56,330 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-1pct_Genus-ASV_skin.fasta (847 sequences)
+2025-11-13 16:08:56,429 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_rare-2000_Genus-ASV_nasal.biom
+2025-11-13 16:08:56,501 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-1pct_Genus-ASV_nasal.fasta (616 sequences)
+2025-11-13 16:09:02,547 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_all.biom
+2025-11-13 16:09:02,713 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-0pct_Genus-ASV_all.fasta (1420 sequences)
+2025-11-13 16:09:03,009 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_skin.biom
+2025-11-13 16:09:03,163 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-0pct_Genus-ASV_skin.fasta (1322 sequences)
+2025-11-13 16:09:03,374 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-350_Genus-ASV_nasal.biom
+2025-11-13 16:09:03,450 - INFO - FASTA written: ../Data/Fasta/rare-350_prev-0pct_Genus-ASV_nasal.fasta (636 sequences)
+2025-11-13 16:09:08,652 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_all.biom
+2025-11-13 16:09:08,849 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-0pct_Genus-ASV_all.fasta (1683 sequences)
+2025-11-13 16:09:09,155 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_skin.biom
+2025-11-13 16:09:09,339 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-0pct_Genus-ASV_skin.fasta (1576 sequences)
+2025-11-13 16:09:09,555 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1000_Genus-ASV_nasal.biom
+2025-11-13 16:09:09,648 - INFO - FASTA written: ../Data/Fasta/rare-1000_prev-0pct_Genus-ASV_nasal.fasta (773 sequences)
+2025-11-13 16:09:14,186 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_all.biom
+2025-11-13 16:09:14,398 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-0pct_Genus-ASV_all.fasta (1737 sequences)
+2025-11-13 16:09:14,657 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_skin.biom
+2025-11-13 16:09:14,855 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-0pct_Genus-ASV_skin.fasta (1645 sequences)
+2025-11-13 16:09:15,137 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-1500_Genus-ASV_nasal.biom
+2025-11-13 16:09:15,230 - INFO - FASTA written: ../Data/Fasta/rare-1500_prev-0pct_Genus-ASV_nasal.fasta (781 sequences)
+2025-11-13 16:09:19,364 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_all.biom
+2025-11-13 16:09:19,565 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-0pct_Genus-ASV_all.fasta (1733 sequences)
+2025-11-13 16:09:19,809 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_skin.biom
+2025-11-13 16:09:20,001 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-0pct_Genus-ASV_skin.fasta (1637 sequences)
+2025-11-13 16:09:20,275 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_rare-2000_Genus-ASV_nasal.biom
+2025-11-13 16:09:20,364 - INFO - FASTA written: ../Data/Fasta/rare-2000_prev-0pct_Genus-ASV_nasal.fasta (760 sequences)
+2025-11-13 16:09:20,405 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_Genus-ASV_all.biom
+2025-11-13 16:09:20,434 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_Genus-ASV_skin.biom
+2025-11-13 16:09:20,458 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_Genus-ASV_nasal.biom
+2025-11-13 16:09:20,512 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_Genus-ASV_all.biom
+2025-11-13 16:09:20,559 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_Genus-ASV_skin.biom
+2025-11-13 16:09:20,599 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-5pct_Genus-ASV_nasal.biom
+2025-11-13 16:09:20,713 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_Genus-ASV_all.biom
+2025-11-13 16:09:20,834 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_Genus-ASV_skin.biom
+2025-11-13 16:09:21,001 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_Genus-ASV_nasal.biom
+2025-11-13 16:09:21,245 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_Genus-ASV_all.biom
+2025-11-13 16:09:21,591 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_Genus-ASV_skin.biom
+2025-11-13 16:09:21,823 - INFO - Saved BIOM: ../Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-0pct_Genus-ASV_nasal.biom
+2025-11-13 16:09:21,823 - INFO - All processing complete.

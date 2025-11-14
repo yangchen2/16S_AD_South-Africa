@@ -1,6 +1,6 @@
 ###########################################################################
 # Set working directory
-setwd("/Users/yangchen/PhD/Collaborations/Dube_lab/16S_AD_South-Africa/Notebooks")
+setwd("/Users/yangchen/PhD/Collaborations/Dube_lab/16S_AD_South-Africa/Analyses")
 # Load packages
 library(ANCOMBC)
 library(tidyverse)
@@ -10,7 +10,9 @@ cat("ANCOM-BC2 version:", as.character(packageVersion("ANCOMBC")), "\n")
 ###########################################################################
 # Define paths
 metadata_path <- '../Metadata/16S_AD_South-Africa_metadata_subset.tsv'
-biom_path <- '/Users/yangchen/PhD/Collaborations/Dube_lab/16S_AD_South-Africa/Data/Tables/Count_Tables/6_3_209766_feature_table_dedup_prev-filt-10pct_Genus-ASV_all.tsv'
+biom_path <- '/Users/yangchen/PhD/Collaborations/Dube_lab/16S_AD_South-Africa/Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_Genus-ASV_all.tsv'
+
+
 output_dir <- "../Data/Differential_Abundance"
 dir.create(output_dir, showWarnings = FALSE)
 ###########################################################################
@@ -20,9 +22,16 @@ metadata <- metadata %>%
   rename(sample_id = `#sample-id`) %>%
   mutate(sample_id = str_replace_all(sample_id, "_", "")) %>%
   column_to_rownames("sample_id")
+
+cat("\nMetadata sample IDs (first 20):\n")
+print(head(rownames(metadata), 20))
 ###########################################################################
 # Load OTU table
 otu_data <- read_tsv(biom_path, comment = '#') %>% column_to_rownames(colnames(.)[1])
+
+cat("\nOTU table row names (first 20):\n")
+print(head(colnames(otu_data), 20))
+
 cat("OTU table loaded:", ncol(otu_data), "samples,", nrow(otu_data), "features\n")
 ###########################################################################
 # Define reusable function
@@ -35,9 +44,9 @@ run_ancombc2_by_area <- function(area_name, metadata, otu_data, output_dir) {
     message("Skipping ", area_name, " — fewer than 10 samples.")
     return(NULL)
   }
-  cat("Samples in", area_name, ":", nrow(meta_sub), "\n")
-  print(table(meta_sub$case_type))
   
+  cat("Samples in", area_name, ":", nrow(meta_sub), "\n")
+
   # Align sample IDs
   common_samples <- intersect(rownames(meta_sub), colnames(otu_data))
   meta_sub <- meta_sub[common_samples, ]
