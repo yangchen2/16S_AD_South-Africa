@@ -13,7 +13,8 @@ import qiime2 as q2
 
 ##########################################################################################
 # SCRIPT 6: MAP ASV SEQUENCES TO TAXONOMY NAMES AND EXPORT FASTA + BIOM
-#           (ALL, SKIN, NASAL) FOR MULTIPLE DEPTHS — ENSURES FEATURE MATCHING
+#           RAREFIED: collapse to Genus-ASV-X
+#           NON-RAREFIED: ASV-non-collapsed (original ASVs)
 ##########################################################################################
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -21,7 +22,7 @@ WRITE_FASTA = True
 WRITE_BIOM = True
 
 # ------------------------------------------------------------------
-# Setup logging
+# Logging setup
 # ------------------------------------------------------------------
 os.makedirs("../logs", exist_ok=True)
 logging.basicConfig(
@@ -31,21 +32,22 @@ logging.basicConfig(
 )
 
 # ------------------------------------------------------------------
-# Load taxonomy + metadata
+# Load Greengenes2 taxonomy
 # ------------------------------------------------------------------
 logging.info("Loading Greengenes2 taxonomy artifact...")
 gg_taxonomy = q2.Artifact.load("../Reference/2022.10.taxonomy.asv.tsv.qza").view(pd.DataFrame)
 logging.info("Greengenes2 taxonomy successfully loaded.")
 
+# ------------------------------------------------------------------
+# Load metadata
+# ------------------------------------------------------------------
 metadata_path = "../Metadata/16S_AD_South-Africa_metadata_subset.tsv"
-metadata = pd.read_csv(metadata_path, sep="\t")
-metadata.set_index("#sample-id", inplace=True)
+metadata = pd.read_csv(metadata_path, sep="\t").set_index("#sample-id")
 
 # ------------------------------------------------------------------
-# Functions
+# FASTA writer
 # ------------------------------------------------------------------
 def write_fasta_from_index_map(index_map: dict, output_fasta_path: str):
-    """Write FASTA where headers are taxonomy-labeled ASV IDs."""
     os.makedirs(os.path.dirname(output_fasta_path), exist_ok=True)
     count = 0
     with open(output_fasta_path, "w") as f:
@@ -60,23 +62,22 @@ def write_fasta_from_index_map(index_map: dict, output_fasta_path: str):
     print(f"  → {count} sequences written to {output_fasta_path}")
 
 
-def add_unique_tax_labels(tbl_path: str, level: str, prevalence: str, depth: int):
-    """Map ASV IDs (ASV sequences) to taxonomy-labeled IDs like g__Streptococcus_ASV-1."""
+# ------------------------------------------------------------------
+# Genus-ASV collapsing for rarefied tables
+# ------------------------------------------------------------------
+def add_unique_tax_labels(tbl_path: str, level: str):
     biom_table = load_table(tbl_path)
-    df = pd.DataFrame(biom_table.to_dataframe()).T  # samples × features
-    logging.info(f"Loaded BIOM {tbl_path} with shape {df.shape}")
+    df = pd.DataFrame(biom_table.to_dataframe()).T  # samples × ASVs
 
-    # Attach taxonomy
-    df_tax = df.T
-    df_tax = df_tax.merge(gg_taxonomy["Taxon"], how="left", left_index=True, right_index=True)
-    df_tax["Taxon"] = df_tax["Taxon"].fillna("Unknown")
-
+    df_tax = df.T.merge(gg_taxonomy["Taxon"], how="left", left_index=True, right_index=True)
     taxonomy_levels = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
+
+    df_tax["Taxon"] = df_tax["Taxon"].fillna("Unknown")
     df_tax[taxonomy_levels] = df_tax["Taxon"].str.split(";", expand=True)
     df_tax = df_tax[df_tax[level].notnull()]
 
-    # Compute total abundance & assign ASV labels
     df_tax["TotalAbundance"] = df_tax.drop(columns=taxonomy_levels + ["Taxon"]).sum(axis=1)
+
     index_map = {}
     for taxon, group in df_tax.groupby(level):
         sorted_group = group.sort_values("TotalAbundance", ascending=False)
@@ -84,112 +85,120 @@ def add_unique_tax_labels(tbl_path: str, level: str, prevalence: str, depth: int
         for i, idx in enumerate(sorted_group.index, 1):
             index_map[idx] = f"{clean_taxon}_ASV-{i}"
 
-    # Replace feature IDs
     df_tax_renamed = df_tax.rename(index=index_map)
     df_out = df_tax_renamed.drop(columns=taxonomy_levels + ["Taxon", "TotalAbundance"])
 
-    return index_map, df_out.T  # sample × feature table
+    return index_map, df_out.T
 
 
-def filter_samples_by_specimen(df_counts: pd.DataFrame, specimen: str) -> pd.DataFrame:
-    """Subset BIOM DataFrame to samples of a given specimen type."""
+# ------------------------------------------------------------------
+# Specimen filtering
+# ------------------------------------------------------------------
+def filter_samples_by_specimen(df_counts: pd.DataFrame, specimen: str):
     if specimen is None:
         return df_counts
-    valid_samples = metadata[metadata["specimen"] == specimen].index
-    subset = df_counts.loc[df_counts.index.intersection(valid_samples)]
-    if subset.empty:
-        logging.warning(f"No samples found for specimen={specimen}")
-    return subset
+    valid_ids = metadata[metadata["specimen"] == specimen].index
+    return df_counts.loc[df_counts.index.intersection(valid_ids)]
 
 
+# ------------------------------------------------------------------
+# BIOM saver
+# ------------------------------------------------------------------
 def save_biom_table(df_counts: pd.DataFrame, output_path: str):
-    """Save BIOM table."""
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     biom_out = biom.table.Table(df_counts.T.values, observation_ids=df_counts.columns, sample_ids=df_counts.index)
     with biom_open(output_path, "w") as f:
-        biom_out.to_hdf5(f, generated_by="ASV mapping per specimen type")
+        biom_out.to_hdf5(f, generated_by="ASV + Genus-ASV mapping")
     logging.info(f"Saved BIOM: {output_path}")
 
+
 # ------------------------------------------------------------------
-# Main execution
+# Main
 # ------------------------------------------------------------------
 if __name__ == "__main__":
     try:
         prevalence_thresholds = ["10pct", "5pct", "1pct", "0pct"]
         taxonomy_level = "Genus"
-        rarefaction_depths = [350, 1000, 1500, 2000]
-        biom_input_prefix = ["5_"]
+        rare_depths = [350, 1000, 1500, 2000]
 
+        # rarefied (collapse)
+        biom_prefix_rarefied = ["5_"]
+
+        # non-rarefied (ASV-non-collapsed)
+        biom_prefix_nonraref = ["3_"]
+
+        variants = {"all": None, "skin": "skin", "nasal": "nasal"}
+
+        # =============================================================
+        # 1. RAREFIED: Genus-ASV collapsed
+        # =============================================================
         for prevalence in prevalence_thresholds:
-            for depth in rarefaction_depths:
-                for biom_prefix in biom_input_prefix:
+            for depth in rare_depths:
+                for biom_prefix in biom_prefix_rarefied:
                     biom_path = (
                         f"../Data/Tables/Count_Tables/"
                         f"{biom_prefix}209766_feature_table_dedup_prev-filt-{prevalence}_rare-{depth}.biom"
                     )
 
                     if not os.path.exists(biom_path):
-                        logging.warning(f"BIOM not found: {biom_path}")
                         continue
 
-                    print(f"\n=== Processing prefix {biom_prefix}, prevalence {prevalence}, depth {depth} ===")
-                    index_map, df_counts_all = add_unique_tax_labels(biom_path, taxonomy_level, prevalence, depth)
+                    print(f"\n=== RAREFIED: prevalence={prevalence}, depth={depth} ===")
 
-                    variants = {
-                        "all": None,
-                        "skin": "skin",
-                        "nasal": "nasal"
-                    }
+                    index_map, df_counts = add_unique_tax_labels(biom_path, taxonomy_level)
 
                     for variant, specimen in variants.items():
-                        df_counts_subset = filter_samples_by_specimen(df_counts_all, specimen)
-                        if df_counts_subset.empty:
-                            print(f"No samples found for {variant} at depth {depth}. Skipping.")
-                            continue
+                        df_sub = filter_samples_by_specimen(df_counts, specimen)
+                        df_sub = df_sub.loc[:, df_sub.sum(axis=0) > 0]
 
-                        features_present = df_counts_subset.columns[df_counts_subset.sum(axis=0) > 0].tolist()
-                        df_counts_subset = df_counts_subset[features_present]
-                        index_map_subset = {seq: label for seq, label in index_map.items() if label in features_present}
-
-                        n_biom = len(df_counts_subset.columns)
-                        n_fasta = len(index_map_subset)
-                        if n_biom != n_fasta:
-                            logging.warning(f"Feature mismatch for {variant} (BIOM={n_biom}, FASTA={n_fasta}) — syncing.")
-                            shared_features = set(features_present).intersection(index_map_subset.values())
-                            df_counts_subset = df_counts_subset[list(shared_features)]
-                            index_map_subset = {k: v for k, v in index_map_subset.items() if v in shared_features}
-                            n_biom = len(df_counts_subset.columns)
-                            n_fasta = len(index_map_subset)
-
-                        logging.info(f"Saving {variant}: {n_biom} features, depth={depth}")
-
-                        # Save BIOM
-                        if WRITE_BIOM:
-                            biom_output_prefix = "6_"
-                            biom_outfile = (
-                                f"../Data/Tables/Count_Tables/"
-                                f"{biom_output_prefix}209766_feature_table_dedup_prev-filt-{prevalence}_rare-{depth}_Genus-ASV_{variant}.biom"
-                            )
-                            save_biom_table(df_counts_subset, biom_outfile)
-
-                        # Save FASTA
-                        if WRITE_FASTA:
-                            fasta_out = (
-                                f"../Data/Fasta/"
-                                f"{biom_prefix}209766_feature_table_dedup_prev-filt-{prevalence}_rare-{depth}_Genus-ASV_{variant}.fasta"
-                            )
-                            write_fasta_from_index_map(index_map_subset, fasta_out)
-
-                        assert n_biom == n_fasta, (
-                            f"Mismatch detected after filtering for {variant} "
-                            f"(BIOM={n_biom}, FASTA={n_fasta})"
+                        # BIOM output
+                        biom_out = (
+                            f"../Data/Tables/Count_Tables/"
+                            f"6_209766_feature_table_dedup_prev-filt-{prevalence}_rare-{depth}_Genus-ASV_{variant}.biom"
                         )
+                        save_biom_table(df_sub, biom_out)
 
-                    logging.info(f"Completed: prefix={biom_prefix}, prevalence={prevalence}, depth={depth}")
+                        # FASTA output
+                        fasta_out = (
+                            f"../Data/Fasta/"
+                            f"rare-{depth}_prev-{prevalence}_Genus-ASV_{variant}.fasta"
+                        )
+                        index_sub = {k: v for k, v in index_map.items() if v in df_sub.columns}
+                        write_fasta_from_index_map(index_sub, fasta_out)
 
-        logging.info("All taxonomy mappings, BIOMs, and FASTAs completed (ALL, SKIN, NASAL).")
-        print("Done. Log written to: ../logs/6_taxonomy_tbl_map_Genus_ASV_with-fasta.log")
+        # =============================================================
+        # 2. NON-RAREFIED: ASV-non-collapsed (original ASVs)
+        # =============================================================
+        for prevalence in prevalence_thresholds:
+            for biom_prefix in biom_prefix_nonraref:
+                biom_path_nr = (
+                    f"../Data/Tables/Count_Tables/"
+                    f"{biom_prefix}209766_feature_table_dedup_prev-filt-{prevalence}.biom"
+                )
+
+                if not os.path.exists(biom_path_nr):
+                    continue
+
+                print(f"\n=== NON-RAREFIED: ASV-non-collapsed, prevalence={prevalence} ===")
+
+                biom_table_nr = load_table(biom_path_nr)
+                df_nr = pd.DataFrame(biom_table_nr.to_dataframe()).T
+
+                for variant, specimen in variants.items():
+                    df_nr_sub = filter_samples_by_specimen(df_nr, specimen)
+                    df_nr_sub = df_nr_sub.loc[:, df_nr_sub.sum(axis=0) > 0]
+
+                    # BIOM output
+                    biom_out_nr = (
+                        f"../Data/Tables/Count_Tables/"
+                        f"6_209766_feature_table_dedup_prev-filt-{prevalence}_Genus-ASV_{variant}.biom"
+                    )
+                    save_biom_table(df_nr_sub, biom_out_nr)
+
+
+        logging.info("All processing complete.")
+        print("Done. Log written to ../logs/6_taxonomy_tbl_map_Genus_ASV_with-fasta.log")
 
     except Exception as e:
-        logging.error(f"Error in main execution: {e}")
+        logging.error(f"Error occurred: {e}")
         raise

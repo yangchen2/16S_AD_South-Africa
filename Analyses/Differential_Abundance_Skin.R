@@ -10,7 +10,7 @@ cat("ANCOM-BC2 version:", as.character(packageVersion("ANCOMBC")), "\n")
 ###########################################################################
 # Define paths
 metadata_path <- '../Metadata/16S_AD_South-Africa_metadata_subset.tsv'
-biom_path <- '/Users/yangchen/PhD/Collaborations/Dube_lab/16S_AD_South-Africa/Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-10pct_Genus-ASV_all.tsv'
+biom_path <- '/Users/yangchen/PhD/Collaborations/Dube_lab/16S_AD_South-Africa/Data/Tables/Count_Tables/6_209766_feature_table_dedup_prev-filt-1pct_Genus-ASV_skin.tsv'
 
 
 output_dir <- "../Data/Differential_Abundance"
